@@ -1,0 +1,33 @@
+header {
+    height: 90px;
+    background-color: blue;
+}
+
+.header-container {
+    max-width: 1800px;
+    height: 90px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+
+
+    // .logo {}
+
+
+
+    .menu {
+        width: 500px;
+        display: flex;
+        
+    }
+
+        a {
+            width: 210px;
+            text-decoration: none;
+            color: black;
+            cursor: pointer;
+        }
+
+}
