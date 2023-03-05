@@ -1,27 +1,31 @@
 .second-block {
     margin-top: 50px;
     height: 700px;
-    width: 100%;
-    border: 1px solid black;
+    // width: 100%;
+    // border: 1px solid black;
     display: flex;
     justify-content: center;
 
     .container {
-        width: 1800px;
+        // width: 1800px;
+        width: calc(100% - 6.5%);
         display: flex;
 
         .left-side {
-            width: 600px;
+            // width: 600px;
+            width: calc(100% - 68.75%);
+            min-width: 500px;
             height: 700px;
-            border: 1px solid black;
+            // border: 1px solid black;
             background-image: url(../../../public/images/bedoctor-home-pic2.webp);
             background-repeat: no-repeat;
             background-size: 100%;
         }
 
         .right-side {
-            width: 1000px;
-            margin-left: 170px;
+            // width: 1000px;
+            width: calc(100% - 47.91%);
+            margin-left: 190px;
             padding-top: 80px;
             display: flex;
             flex-direction: column;
@@ -36,7 +40,7 @@
             }
 
             .title {
-                
+
                 font-size: 28px;
                 color: #204289;
                 font-family: 'Plus Jakarta Sans', sans-serif;

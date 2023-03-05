@@ -1,0 +1,39 @@
+import articleArray from 'utils/articleArray'
+import Slider from 'react-slick'
+
+
+type Props = {}
+
+
+
+
+
+
+const SimpleSlider = (props: Props) => {
+    const settings = {
+        dots: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    }
+    return (
+        <>
+            <Slider>
+                {articleArray.map((item) => (
+                    <div className="card">
+                        <div className="card-top">
+                            <img src={item.image} alt={item.title} />
+                        </div>
+                        <div className="card-bottom">
+                            <h3>{item.title}</h3>
+                            <p>{item.description}</p>
+                        </div>
+                        <button>See more</button>
+                    </div>
+                ))}
+            </Slider>
+        </>
+    )
+}
+export default SimpleSlider

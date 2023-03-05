@@ -1,7 +1,137 @@
-.third-block{
-    height: 1500px;
+.third-block {
+    height: 1060px;
     margin-top: 50px;
     border-radius: 40px;
     background: rgb(155, 204, 255);
-        background: linear-gradient(153deg, rgba(155, 204, 255, 1) 0%, rgba(255, 255, 255, 1) 42%, rgba(161, 207, 255, 1) 100%);;
+    background: linear-gradient(153deg, rgba(155, 204, 255, 1) 0%, rgba(255, 255, 255, 1) 42%, rgba(161, 207, 255, 1) 100%);
+    ;
+    display: flex;
+    justify-content: center;
+    // flex-direction: column;
+
+    .container {
+        // width: 1800px;
+        width: calc(100% - 6.5%);
+        display: flex;
+        // justify-content: center;
+        flex-direction: column;
+
+        .text-fragment {
+            padding-top: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            // justify-content: center;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+
+            h6 {
+                color: #2b6cf5;
+                font-size: 14px;
+                line-height: 20px;
+                font-weight: 700;
+                letter-spacing: 0px;
+            }
+
+            h2 {
+                color: #204289;
+                font-size: 50px;
+                line-height: 58px;
+                font-weight: 700;
+                letter-spacing: -2px;
+                margin-top: -20px;
+            }
+
+            p {
+                color: #204289;
+                text-align: center;
+            }
+        }
+
+        .slick-slider {
+            display: flex;
+            margin: 0 auto;
+            // width: 1400px;
+            // top: 500px;
+            width: calc(100% - 6.5%);
+
+
+            .slick-list {
+                // width: 100%;
+                // height: 700px;
+                padding-left: 50px;
+            }
+
+            .card {
+                height: 650px;
+
+                .card-top {
+                    margin-top: 100px;
+
+                    img {
+                        width: 420px;
+                        border-top-left-radius: 40px;
+                        border-top-right-radius: 40px;
+                    }
+                }
+
+                .card-bottom {
+                    width: 420px;
+                    height: 240px;
+                    background-color: white;
+                    border-bottom-left-radius: 40px;
+                    border-bottom-right-radius: 40px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    font-family: 'Plus Jakarta Sans', sans-serif;
+                    transition: 0.5s;
+
+                    &:hover {
+                        box-shadow: 0px 0px 15px #2B6CF5;
+                        transition: 0.5s;
+                    }
+
+                    h3 {
+                        margin: 0;
+                        padding-top: 40px;
+                        color: #204289;
+                        font-size: 28px;
+                        line-height: 36px;
+                        font-weight: 700;
+                        letter-spacing: -1px;
+                    }
+
+                    h6 {
+                        margin-top: 20px;
+                        color: #204289;
+                        font-size: 14px;
+                        font-weight: 300;
+                    }
+
+                    button {
+                        margin-top: 20px;
+                        width: 180px;
+                        height: 60px;
+                        background-color: white;
+                        font-family: 'Plus Jakarta Sans', sans-serif;
+                        font-size: 17px;
+                        padding: 16px 25px 16px 25px;
+                        border-radius: 38px;
+                        line-height: 15px;
+                        color: #2B6CF5;
+                        border: 1px solid lightgray;
+                        transition: 0.5s;
+                        cursor: pointer;
+
+                        &:hover {
+                            border: 1px solid #2B6CF5;
+                            transition: 0.5s;
+                        }
+                    }
+
+
+                }
+            }
+        }
+    }
 }
