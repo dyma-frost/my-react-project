@@ -19,7 +19,7 @@ const SimpleSlider = () => {
         <>
             <Slider {...settings}>
                 {articleArray.map((item) => (
-                    <div className="card">
+                    <div className="card" key={item.id}>
                         <div className="card-top">
                             <img src={item.image} alt={item.title} />
                         </div>
