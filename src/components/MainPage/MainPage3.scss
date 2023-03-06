@@ -1,19 +1,20 @@
 .third-block {
-    height: 1200px;
+    // height: 1200px;
     margin-top: 50px;
     border-radius: 40px;
     background: rgb(155, 204, 255);
-    background: linear-gradient(153deg, rgba(155, 204, 255, 1) 0%, rgba(255, 255, 255, 1) 42%, rgba(161, 207, 255, 1) 100%);
-    ;
+    background: linear-gradient(
+        153deg,
+        rgba(155, 204, 255, 1) 0%,
+        rgba(255, 255, 255, 1) 42%,
+        rgba(161, 207, 255, 1) 100%
+    );
     display: flex;
     justify-content: center;
-    // flex-direction: column;
 
     .container {
-        // width: 1800px;
         width: calc(100% - 20%);
         display: flex;
-        // justify-content: center;
         flex-direction: column;
 
         .text-fragment {
@@ -21,7 +22,6 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            // justify-content: center;
             font-family: 'Plus Jakarta Sans', sans-serif;
 
             h6 {
@@ -48,24 +48,12 @@
         }
 
         .slick-slider {
-
             margin-top: 50px;
-            // width: 1400px;
-            // top: 500px;
+            margin-bottom: 50px;
             width: 100%;
-            // border: 1px solid black;
-            // padding-left: 100px;
-            // height: 700px;
-
-
 
             .slick-list {
-                // width: 100%;
-                // height: 700px;
                 margin: 0 auto;
-                // border: 1px solid black;
-                height: 610px;
-                // width: 60%;
             }
 
             .slick-slide {
@@ -75,33 +63,31 @@
 
             .card {
                 margin-top: 10px;
+                margin-bottom: 10px;
                 border-radius: 40px;
                 transition: 1s;
-                &:hover {
-                        box-shadow: 0px 0px 15px #2B6CF5;
-                        transition: 0.5s;
-                    }
 
-                &:hover button{
-                    box-shadow: 0px 0px 5px #2B6CF5;
+                &:hover {
+                    box-shadow: 0px 0px 15px #2b6cf5;
                     transition: 0.5s;
                 }
 
-                // height: 600px;
+                &:hover button {
+                    box-shadow: 0px 0px 5px #2b6cf5;
+                    transition: 0.5s;
+                }
+
                 .card-top {
-                    // margin-top: 100px;
-
                     img {
-
-                        max-width: 450px;
+                        width: 20vw;
                         border-top-left-radius: 40px;
                         border-top-right-radius: 40px;
                     }
                 }
 
                 .card-bottom {
-                    // width: 420px;
-                    max-width: 450px;
+                    width: 100%;
+                    width: 20vw;
                     height: 250px;
                     background-color: white;
                     border-bottom-left-radius: 40px;
@@ -111,11 +97,6 @@
                     align-items: center;
                     font-family: 'Plus Jakarta Sans', sans-serif;
                     transition: 0.5s;
-
-                    // &:hover {
-                    //     box-shadow: 0px 0px 15px #2B6CF5;
-                    //     transition: 0.5s;
-                    // }
 
                     h3 {
                         margin: 0;
@@ -144,18 +125,16 @@
                         padding: 16px 25px 16px 25px;
                         border-radius: 38px;
                         line-height: 15px;
-                        color: #2B6CF5;
+                        color: #2b6cf5;
                         border: 1px solid lightgray;
                         transition: 0.5s;
                         cursor: pointer;
 
                         &:hover {
-                            border: 1px solid #2B6CF5;
+                            border: 1px solid #2b6cf5;
                             transition: 0.5s;
                         }
                     }
-
-
                 }
             }
         }
