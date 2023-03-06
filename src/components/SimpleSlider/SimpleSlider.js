@@ -8,8 +8,8 @@ import Slider from 'react-slick'
 const SimpleSlider = () => {
     const settings = {
         dots: false,
-        infinite: true,
-        autoplay: true,
+        // infinite: true,
+        // autoplay: true,
         autoplaySpeed: 2000,
         speed: 1000,
         slidesToShow: 3,
