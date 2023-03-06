@@ -1,0 +1,108 @@
+.fifth-block {
+    margin-top: 50px;
+    height: 845px;
+    display: flex;
+    justify-content: center;
+
+    .container {
+        width: 80%;
+        // border: 1px solid black;
+        display: flex;
+        justify-content: center;
+    }
+
+    .left-side {
+        // border: 1px solid black;
+        border-radius: 40px;
+        width: 50%;
+        margin-right: 10px;
+        background-image: url(../../../public/images/bedoctor-about-pic3.webp);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+    }
+
+    .right-side {
+        // border: 1px solid red;
+        border-radius: 40px;
+        width: 50%;
+        margin-left: 10px;
+        background: rgb(155, 204, 255);
+        background: linear-gradient(153deg, rgba(155, 204, 255, 1) 0%, rgba(255, 255, 255, 1) 42%, rgba(161, 207, 255, 1) 100%);
+        ;
+
+        .top-side {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: end;
+            height: 60%;
+            // border: 1px solid black;
+
+            .logo {
+                width: 110px;
+                height: 110px;
+                // border: 1px solid black;
+                border-radius: 50%;
+                background-color: white;
+                background-image: url(../../../public/images/bedoctor-icon-pin.svg);
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+            .title {
+                font-family: 'Plus Jakarta Sans', sans-serif;
+                color: #204289;
+                // font-size: 38px;
+                font-size: calc(30px + 14 * (100vw / 1920));
+                // line-height: 46px;
+                font-weight: 700;
+                letter-spacing: -1px;
+                // border: 1px solid black;
+                text-align: center;
+            }
+        }
+
+        .bottom-side {
+            height: 35%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            // border: 1px solid black;
+
+            .text-fragment {
+                width: 50%;
+                font-family: 'Plus Jakarta Sans', sans-serif;
+                color: #204289;
+                font-size: 24px;
+                font-weight: 500;
+                letter-spacing: -1px;
+                // border: 1px solid black;
+                text-align: center;
+            }
+
+            button {
+                max-width: 280px;
+                height: 60px;
+                background-color: #2B6CF5;
+                border-color: #2B6CF5;
+                font-family: 'Plus Jakarta Sans', sans-serif;
+                font-size: 17px;
+                padding: 16px 25px 16px 25px;
+                border-radius: 38px;
+                border-width: 1px;
+                line-height: 15px;
+                color: white;
+                transition: 0.5s;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: #204289;
+                    border-color: #204289;
+                    transition: 0.5s;
+                }
+            }
+        }
+    }
+}
