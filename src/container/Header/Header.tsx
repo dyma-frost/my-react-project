@@ -6,7 +6,7 @@ type Props = {}
 const Header = (props: Props) => {
     return (
         <>
-            <header>
+            <header /* className='header-sticky' */>
                 <div className="header-container">
                     <Logo />
                     <div className="menu">
@@ -18,7 +18,9 @@ const Header = (props: Props) => {
                     </div>
                     {/* <Menu/> */}
                     <div className="contact">
-                        <a href="/">+61 (0) 3 8376 6284</a>
+                        <a href="tel: +61 (0) 3 8376 6284">
+                            +61 (0) 3 8376 6284
+                        </a>
                         <button>Send</button>
                     </div>
                 </div>

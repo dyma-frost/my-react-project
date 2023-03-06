@@ -7,19 +7,19 @@
     justify-content: center;
 
     .container {
-        // width: 1800px;
-        width: calc(100% - 6.5%);
+        width: calc(100% - 20%);
         display: flex;
 
         .left-side {
             // width: 600px;
-            width: calc(100% - 68.75%);
-            min-width: 500px;
+            // width: calc(100% - 68.75%);
+            width: 35%;
             height: 700px;
             // border: 1px solid black;
             background-image: url(../../../public/images/bedoctor-home-pic2.webp);
             background-repeat: no-repeat;
             background-size: 100%;
+            background-position: center;
         }
 
         .right-side {
@@ -53,7 +53,8 @@
                 line-height: 28px;
                 font-family: 'Plus Jakarta Sans', sans-serif;
                 font-weight: 300;
-                margin-left: 700px;
+                // margin-left: 700px;
+                margin-left: 80%;
                 margin-top: 100px;
             }
         }
