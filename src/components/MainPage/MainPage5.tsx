@@ -17,10 +17,10 @@ const MainPage5 = (props: Props) => {
                             </h3>
                         </div>
                         <div className="bottom-side">
-                                <h5 className="text-fragment">
-                                    Level 13, 2 Elizabeth St, Melbourne,
-                                    Victoria 3000, Australia
-                                </h5>
+                            <h5 className="text-fragment">
+                                Level 13, 2 Elizabeth St, Melbourne, Victoria
+                                3000, Australia
+                            </h5>
                             <button>Book an appointment</button>
                         </div>
                     </div>
