@@ -1,23 +1,28 @@
 import Menu from 'components/Menu/Menu'
 import Logo from 'components/Logo/Logo'
 import './Header.scss'
+import React, { useState } from 'react'
 
 type Props = {}
 
-console.log(window.scrollY)
 const Header = (props: Props) => {
+    const [state, setstate] = useState(false)
+
+    const changeClass = () => {
+        const scrollValue = document.documentElement.scrollTop
+        if (scrollValue >= 120) {
+            setstate(true)
+        } else {
+            setstate(false)
+        }
+    }
+
+    window.addEventListener('scroll', changeClass)
     return (
         <>
-            <header /* className='header-sticky' */>
+            <header className={state ? 'header-sticky' : ''}>
                 <div className="header-container">
                     <Logo />
-                    {/* <div className="menu">
-                        <a href="/">Home</a>
-                        <a href="/">Services</a>
-                        <a href="/">About</a>
-                        <a href="/">Packages</a>
-                        <a href="/">Contact</a>
-                    </div> */}
                     <Menu />
                     <div className="contact">
                         <a href="tel: +61 (0) 3 8376 6284">
