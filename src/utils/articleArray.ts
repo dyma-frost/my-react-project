@@ -49,6 +49,7 @@ const articleArray: Article[] = [
         image: '/images/Pregnancy.webp',
         category: 'pregnancy',
     },
+    
 ]
 
 export const getProductsObject = (array: Article[]) =>

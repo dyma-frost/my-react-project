@@ -2,13 +2,8 @@
     // height: 1200px;
     margin-top: 50px;
     border-radius: 40px;
-    background: rgb(155, 204, 255);
-    background: linear-gradient(
-        153deg,
-        rgba(155, 204, 255, 1) 0%,
-        rgba(255, 255, 255, 1) 42%,
-        rgba(161, 207, 255, 1) 100%
-    );
+    background: rgb(155,204,255);
+background: linear-gradient(139deg, rgba(155,204,255,1) 0%, rgba(255,255,255,1) 49%, rgba(161,207,255,1) 100%);
     display: flex;
     justify-content: center;
 
@@ -51,6 +46,19 @@
             margin-top: 50px;
             margin-bottom: 50px;
             width: 100%;
+            .slick-prev{
+                width: 100px;
+                height: 250px;
+                left: -70px;
+                z-index: 10;
+            }
+            .slick-next{
+                width: 100px;
+                height: 250px;
+                right: -70px;
+                z-index: 10;
+            }
+            
 
             .slick-list {
                 margin: 0 auto;
