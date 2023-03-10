@@ -1,6 +1,6 @@
 .contact-me {
     margin-top: 50px;
-    // height: 600px;
+    height: 600px;
 
     // display: flex;
     // justify-content: center;
@@ -64,6 +64,22 @@
                 background-color: #F2F6FA;
                 a:visited {
                     color: transparent;
+                }
+                .fa-facebook, .fa-instagram, .fa-pinterest-p{
+                    color: #204289;
+                    transition: 0.5s;
+                }
+                .fa-facebook:hover{
+                    color: #2b6cf5;
+                    transition: 0.5s;
+                }
+                .fa-instagram:hover{
+                    color: #2b6cf5;
+                    transition: 0.5s;
+                }
+                .fa-pinterest-p:hover{
+                    color: #2b6cf5;
+                    transition: 0.5s;
                 }
             }
             
