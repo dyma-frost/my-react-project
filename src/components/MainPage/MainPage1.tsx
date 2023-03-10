@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './MainPage1.scss'
 
 type Props = {}
@@ -14,12 +15,17 @@ const MainPage1 = (props: Props) => {
                                 your family doctor!
                             </h1>
                             <div className="btns-block">
-                                <button className="blue-btn">
-                                    Book an appointment
-                                </button>
-                                <button className="white-btn">
-                                    My experience
-                                </button>
+                                
+                                <Link to="/contact">
+                                    <button className="blue-btn">Book an appointment</button>
+                                        
+                                    </Link>
+
+                                
+                                    <Link to="/about">
+                                    <button className="white-btn">My experience</button>
+                                </Link>
+
                             </div>
                         </div>
                     </div>

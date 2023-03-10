@@ -40,7 +40,9 @@ const ContactMe = (props: Props) => {
                             <a href="tel: +38 (000) 000 00 00">
                                 +38 (000) 000 00 00
                             </a>
-                            <button>Contact us</button>
+                            <Link to="/contact">
+                                <button>Contact us</button>
+                            </Link>
                         </div>
                         <div className="right-side">
                             <h5>Useful links</h5>
@@ -63,7 +65,6 @@ const ContactMe = (props: Props) => {
                             </ul>
                         </div>
                     </div>
-                    <hr />
                 </div>
             </div>
         </>

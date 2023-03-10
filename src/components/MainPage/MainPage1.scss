@@ -57,7 +57,7 @@
             padding-left: 3px;
 
             .blue-btn {
-                max-width: 230px;
+                // max-width: 230px;
                 height: 60px;
                 background-color: #2b6cf5;
                 border-color: #2b6cf5;
@@ -76,10 +76,15 @@
                     border-color: #204289;
                     transition: 0.5s;
                 }
+                a{
+                    text-decoration: none;
+
+
+                }
             }
 
             .white-btn {
-                width: 180px;
+                // width: 180px;
                 height: 60px;
                 margin-left: 30px;
                 background-color: white;
@@ -96,6 +101,10 @@
                 &:hover {
                     border: 1px solid #2b6cf5;
                     transition: 0.5s;
+                }
+                a{
+                    text-decoration: none;
+                    
                 }
             }
         }

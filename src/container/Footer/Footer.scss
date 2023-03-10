@@ -1,0 +1,20 @@
+footer {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    color: #204289;
+    a{
+        text-decoration: none;
+        display: block;
+        color: #2b6cf5;
+    }
+    span{
+        color: transparent;
+    }
+}
+
+hr{
+    border: 0.1px outset rgba(241, 241, 241, 0.129);
+}
