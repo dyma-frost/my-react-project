@@ -1,0 +1,103 @@
+.seventh-block {
+    margin-top: 50px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    // border: 1px solid black;
+
+    .container {
+        width: 80%;
+        // border: 1px solid black;
+        display: flex;
+        justify-content: center;
+    }
+
+    .left-side {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        // border: 1px solid black;
+        width: 30%;
+        .image {
+            width: 36%;
+            height: 90px;
+            background-image: url(../../../public/images/bedoctor-icon-percent98.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .title {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            color: #204289;
+            h2 {
+                font-size: 50px;
+                line-height: 58px;
+                font-weight: 700;
+                letter-spacing: -2px;
+            }
+            h6 {
+                font-size: 20px;
+                line-height: 28px;
+                font-weight: 500;
+                letter-spacing: 0px;
+            }
+            p {
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: 0px;
+                span {
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+
+    .right-side {
+        // border: 1px solid black;
+        width: 70%;
+        background-image: url(../../../public/images/bedoctor-packages-pic2.webp);
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        .sticker {
+            background-color: white;
+            // border: 1px solid black;
+            width: 40%;
+            display: flex;
+            align-items: center;
+            border-radius: 20px;
+            position: absolute;
+            right: 0;
+            top: 56%;
+            box-shadow: 20px 20px 40px 0px rgba(0, 0, 0, 0.1);
+            .logo {
+                width: 64px;
+                height: 64px;
+                // border: 1px solid black;
+                border-radius: 32px;
+                background-color: #ffe8da;
+                margin: 20px;
+                .logo-star {
+                    font-size: 40px;
+                    color: #ffffff;
+                    font-style: normal;
+                    // margin: auto;
+                }
+                .logo-star::before {
+                    content: '\2605';
+                    margin: 0.3em;
+                }
+            }
+            .description {
+                font-family: 'Plus Jakarta Sans', sans-serif;
+                color: #2B6CF5;
+                .title {
+                    font-size: 28px;
+                    line-height: 36px;
+                    font-weight: 700;
+                    letter-spacing: -1px;
+                    margin: 0;
+                }
+            }
+        }
+    }
+}

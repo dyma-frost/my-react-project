@@ -4,6 +4,7 @@ import MainPage3 from "components/MainPage/MainPage3"
 import MainPage4 from "components/MainPage/MainPage4"
 import MainPage5 from "components/MainPage/MainPage5"
 import MainPage6 from "components/MainPage/MainPage6"
+import MainPage7 from "components/MainPage/MainPage7"
 
 type Props = {}
 const Home = (props: Props) => {
@@ -15,6 +16,7 @@ const Home = (props: Props) => {
             <MainPage4 />
             <MainPage5 />
             <MainPage6 />
+            <MainPage7 />
         </>
     )
 }
