@@ -25,10 +25,19 @@ const Header = (props: Props) => {
                     <Logo />
                     <Menu />
                     <div className="contact">
-                        <a href="tel: +61 (0) 3 8376 6284">
-                            +61 (0) 3 8376 6284
+                        <a href="tel: +38 (000) 000 00 00">
+                            <img
+                                src="/images/bedoctor-header-phone-icon.svg"
+                                alt="phonecall-logo"
+                            />
+                            +38 (000) 000 00 00
                         </a>
-                        <button>Send</button>
+                        <a href="mailto:testmail@mail.com">
+                            <img
+                                src="/images/bedoctor-header-mail-icon.svg"
+                                alt="mail-logo"
+                            />
+                        </a>
                     </div>
                 </div>
             </header>

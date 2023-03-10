@@ -18,14 +18,14 @@ const SimpleSlider = () => {
     return (
         <>
             <Slider {...settings}>
-                {articleArray.map((item) => (
-                    <div className="card" key={item.id}>
+                {articleArray.map((card) => (
+                    <div className="card" key={card.id}>
                         <div className="card-top">
-                            <img src={item.image} alt={item.title} />
+                            <img src={card.image} alt={card.title} />
                         </div>
                         <div className="card-bottom">
-                            <h3>{item.title}</h3>
-                            <h6>{item.description}</h6>
+                            <h3>{card.title}</h3>
+                            <h6>{card.description}</h6>
                         <button>See more</button>
                         </div>
                     </div>

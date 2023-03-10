@@ -1,4 +1,5 @@
-header{
+header {
+    box-sizing: border-box;
     position: sticky;
     top: 0;
     transition: 0.5s;
@@ -8,7 +9,7 @@ header{
     background-color: white;
     position: sticky;
     top: 0;
-    z-index: 9;
+    z-index: 99;
     // border: 1px solid black;
     transition: 0.5s;
 
@@ -26,7 +27,12 @@ header{
     align-items: center;
     background-color: transparent;
 
-    // .logo {}
+    a {
+        width: 210px;
+        text-decoration: none;
+
+        cursor: pointer;
+    }
 
     .menu {
         width: 50%;
@@ -38,6 +44,8 @@ header{
         display: flex;
         align-items: center;
         border-radius: 40px;
+        display: flex;
+        justify-content: space-between;
 
         a {
             display: flex;
@@ -46,28 +54,46 @@ header{
 
         .menu-item {
             color: #204289;
+            // margin: 5px 10px 5px 10px;
+            // transition: 0.5s;
             &:hover {
                 color: white;
                 background-color: #2b6cf5;
-                border-radius: 20px;
+                border-radius: 40px;
                 height: 50px;
                 align-items: center;
+                // transition: 1s;
             }
         }
 
         .menu-item-active {
             color: white;
             background-color: #2b6cf5;
-            border-radius: 20px;
+            border-radius: 40px;
             height: 50px;
             align-items: center;
+            // margin: 5px 10px 5px 10px;
+            transition: 0.5s;
         }
     }
 
-    a {
-        width: 210px;
-        text-decoration: none;
-        color: black;
-        cursor: pointer;
+    .contact {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        a {
+            width: auto;
+            color: #204289;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 14px;
+        }
+        a:first-child {
+            padding-right: 10px;
+            position: relative;
+            img {
+                position: absolute;
+                left: -20px;
+            }
+        }
     }
 }
