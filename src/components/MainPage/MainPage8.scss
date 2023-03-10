@@ -26,10 +26,12 @@
             justify-content: center;
         }
         .logo {
-            width: 79px;
-            height: 71px;
+            width: 250px;
+            height: 200px;
             background-image: url(../../../public/images/bedoctor-icon4.svg);
             background-position: center;
+            background-repeat: no-repeat;
+            background-size: 90%;
         }
         .title {
             margin-top: 45px;

@@ -1,3 +1,4 @@
+import ContactMe from "components/ContactMe/ContactMe"
 import MainPage1 from "components/MainPage/MainPage1"
 import MainPage2 from "components/MainPage/MainPage2"
 import MainPage3 from "components/MainPage/MainPage3"
@@ -19,6 +20,7 @@ const Home = (props: Props) => {
             <MainPage6 />
             <MainPage7 />
             <MainPage8 />
+            <ContactMe/>
         </>
     )
 }
