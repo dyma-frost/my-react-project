@@ -1,0 +1,83 @@
+.about-second {
+    margin-top: 150px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    .container {
+        width: 80%;
+        // border: 1px solid black;
+        display: flex;
+    }
+    .left-side {
+        width: 60%;
+        // border: 1px solid black;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .title {
+            // border: 1px solid black;
+            margin: 2%;
+            // margin-right: 8%;
+        }
+        h3 {
+            margin-top: 0;
+            color: #204289;
+            font-size: 40px;
+            font-weight: 700;
+            letter-spacing: -1px;
+        }
+        .list {
+            display: flex;
+            justify-content: center;
+            ul {
+                // display: flex;
+                // flex-wrap: wrap;
+                // list-style-position: inside;
+                // -webkit-column-count: 2; /* Safari and Chrome */
+                column-count: 2;
+                // list-style-type: none;
+                // height: 200px;
+                // width: 90%;
+                // border: 1px solid black;
+                padding-left: 10px;
+            }
+            li {
+                padding-top: 20px;
+                font-size: 18px;
+                color: #204289;
+            }
+            
+        }
+        button{
+            // max-width: 230px;
+                // height: 60px;
+                margin-top: 50px;
+                background-color: #2b6cf5;
+                border-color: #2b6cf5;
+                font-family: 'Plus Jakarta Sans', sans-serif;
+                font-size: 17px;
+                padding: 16px 25px 16px 25px;
+                border-radius: 40px;
+                border-width: 1px;
+                line-height: 15px;
+                color: white;
+                transition: 0.5s;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: #204289;
+                    border-color: #204289;
+                    transition: 0.5s;
+                }
+        }
+    }
+    .right-side {
+        position: relative;
+        img {
+            position: absolute;
+            bottom: 0;
+            max-width: 600px;
+        }
+    }
+}
