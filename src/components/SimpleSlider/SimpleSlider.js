@@ -1,5 +1,6 @@
 import articleArray from 'utils/articleArray'
 import Slider from 'react-slick'
+import { Link } from 'react-router-dom'
 
 
 
@@ -26,7 +27,9 @@ const SimpleSlider = () => {
                         <div className="card-bottom">
                             <h3>{card.title}</h3>
                             <h6>{card.description}</h6>
-                        <button>See more</button>
+                            <Link to="/services">
+                                <button>See more</button>
+                            </Link>
                         </div>
                     </div>
                 ))}
