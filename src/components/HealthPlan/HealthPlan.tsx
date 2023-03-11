@@ -1,7 +1,7 @@
-import './MainPage6.scss'
+import './HealthPlan.scss'
 
 type Props = {}
-const MainPage6 = (props: Props) => {
+const HealthPlan = (props: Props) => {
     return (
         <>
             <div className="sixth-block">
@@ -76,4 +76,4 @@ const MainPage6 = (props: Props) => {
         </>
     )
 }
-export default MainPage6
+export default HealthPlan

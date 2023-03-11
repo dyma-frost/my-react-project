@@ -1,5 +1,6 @@
 import './ServicesList.scss'
 import articleArray from 'utils/articleArray'
+import { Link } from 'react-router-dom'
 
 type Props = {}
 const ServicesList = (props: Props) => {
@@ -19,13 +20,16 @@ const ServicesList = (props: Props) => {
                                 </ul>
                                 <hr />
                                 <div className="buttons-block">
-                                    <button>Book a visit</button>
-                                    <span>
+                                    <Link to={card.category}>
+                                        <button>Read more</button>
+                                    </Link>
+
+                                    {/* <span>
                                         or call us:
                                         <a href="tel: +38 (000) 000 00 00">
                                             +38 (000) 000 00 00
                                         </a>
-                                    </span>
+                                    </span> */}
                                 </div>
                             </div>
                         </div>

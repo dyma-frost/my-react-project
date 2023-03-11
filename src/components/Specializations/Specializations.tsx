@@ -1,8 +1,8 @@
 import SimpleSlider from 'components/SimpleSlider/SimpleSlider'
-import './MainPage3.scss'
+import './Specializations.scss'
 
 type Props = {}
-const MainPage3 = (props: Props) => {
+const Specializations = (props: Props) => {
     return (
         <>
             <div className="third-block">
@@ -23,4 +23,4 @@ const MainPage3 = (props: Props) => {
         </>
     )
 }
-export default MainPage3
+export default Specializations

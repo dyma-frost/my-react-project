@@ -1,12 +1,13 @@
-import ContactMe from "components/ContactMe/ContactMe"
-import MainPage1 from "components/MainPage/MainPage1"
-import MainPage2 from "components/MainPage/MainPage2"
-import MainPage3 from "components/MainPage/MainPage3"
-import MainPage4 from "components/MainPage/MainPage4"
-import MainPage5 from "components/MainPage/MainPage5"
-import MainPage6 from "components/MainPage/MainPage6"
-import MainPage7 from "components/MainPage/MainPage7"
-import MainPage8 from "components/MainPage/MainPage8"
+import MainPage1 from 'components/MainPage/MainPage1'
+import MainPage2 from 'components/MainPage/MainPage2'
+import Specializations from 'components/Specializations/Specializations'
+import ChooseMe from 'components/ChooseMe/ChooseMe'
+import VisitOur from 'components/VisitOur/VisitOur'
+import HealthPlan from 'components/HealthPlan/HealthPlan'
+import SatisfiedPatients from 'components/SatisfiedPatients/SatisfiedPatients'
+import Appointment from 'components/Appointment/Appointment'
+import ContactMe from 'components/ContactMe/ContactMe'
+
 
 type Props = {}
 const Home = (props: Props) => {
@@ -18,13 +19,14 @@ const Home = (props: Props) => {
         <>
             <MainPage1 />
             <MainPage2 />
-            <MainPage3 />
-            <MainPage4 />
-            <MainPage5 />
-            <MainPage6 />
-            <MainPage7 />
-            <MainPage8 />
-            <ContactMe/>
+            <Specializations />
+            <ChooseMe />
+            <VisitOur />
+            <HealthPlan />
+            <SatisfiedPatients />
+            <Appointment />
+            <ContactMe />
+            
         </>
     )
 }

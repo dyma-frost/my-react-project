@@ -1,10 +1,9 @@
-import ContactMe from 'components/ContactMe/ContactMe'
-import MainPage4 from 'components/MainPage/MainPage4'
-import MainPage8 from 'components/MainPage/MainPage8'
 import ServicesList from 'components/ServicesList/ServicesList'
+import ChooseMe from 'components/ChooseMe/ChooseMe'
+import Appointment from 'components/Appointment/Appointment'
+import ContactMe from 'components/ContactMe/ContactMe'
 
 import './Services.scss'
-
 
 type Props = {}
 const Services = (props: Props) => {
@@ -50,9 +49,9 @@ const Services = (props: Props) => {
                     <ServicesList />
                 </div>
             </div>
-                    <MainPage4/>
-                    <MainPage8 />
-                    <ContactMe/>
+            <ChooseMe />
+            <Appointment />
+            <ContactMe />
         </>
     )
 }

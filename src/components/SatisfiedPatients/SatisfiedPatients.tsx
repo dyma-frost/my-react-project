@@ -1,7 +1,7 @@
-import './MainPage7.scss'
+import './SatisfiedPatients.scss'
 
 type Props = {}
-const MainPage7 = (props: Props) => {
+const SatisfiedPatients = (props: Props) => {
     return (
         <>
             <div className="seventh-block">
@@ -25,7 +25,6 @@ const MainPage7 = (props: Props) => {
                         </div>
                     </div>
                     <div className="right-side">
-
                         <div className="sticker">
                             <div className="logo">
                                 <i className="logo-star"></i>
@@ -43,4 +42,4 @@ const MainPage7 = (props: Props) => {
         </>
     )
 }
-export default MainPage7
+export default SatisfiedPatients
