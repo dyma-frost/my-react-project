@@ -10,6 +10,10 @@ import MainPage8 from "components/MainPage/MainPage8"
 
 type Props = {}
 const Home = (props: Props) => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+    })
     return (
         <>
             <MainPage1 />
