@@ -1,7 +1,7 @@
-import './MainPage4.scss'
+import './ChooseMe.scss'
 
 type Props = {}
-const MainPage4 = (props: Props) => {
+const ChooseMe = (props: Props) => {
     return (
         <>
             <div className="fourth-block">
@@ -40,4 +40,4 @@ const MainPage4 = (props: Props) => {
         </>
     )
 }
-export default MainPage4
+export default ChooseMe

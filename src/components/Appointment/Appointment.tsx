@@ -1,7 +1,7 @@
-import './MainPage8.scss'
+import './Appointment.scss'
 
 type Props = {}
-const MainPage8 = (props: Props) => {
+const Appointment = (props: Props) => {
     return (
         <>
             <div className="eighth-block">
@@ -18,4 +18,4 @@ const MainPage8 = (props: Props) => {
         </>
     )
 }
-export default MainPage8
+export default Appointment

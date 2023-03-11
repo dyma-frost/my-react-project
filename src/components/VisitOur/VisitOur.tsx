@@ -1,7 +1,7 @@
-import './MainPage5.scss'
+import './VisitOur.scss'
 
 type Props = {}
-const MainPage5 = (props: Props) => {
+const VisitOur = (props: Props) => {
     return (
         <>
             <div className="fifth-block">
@@ -29,4 +29,4 @@ const MainPage5 = (props: Props) => {
         </>
     )
 }
-export default MainPage5
+export default VisitOur
