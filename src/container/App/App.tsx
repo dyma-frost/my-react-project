@@ -6,12 +6,12 @@ import Services from 'pages/Services'
 import About from 'pages/About'
 import Contact from 'pages/Contact'
 import Packages from 'pages/Packages'
-import Cardiology from 'pages/Cardiology'
-import DentalDep from 'pages/DentalDep'
-import Pediatrics from 'pages/Pediatrics'
-import XRay from 'pages/XRay'
-import EarTreatment from 'pages/EarTreatment'
-import Pregnancy from 'pages/Pregnancy'
+import Cardiology from 'pages/categoryPage/Cardiology'
+import DentalDep from 'pages/categoryPage/DentalDep'
+import Pediatrics from 'pages/categoryPage/Pediatrics'
+import XRay from 'pages/categoryPage/XRay'
+import EarTreatment from 'pages/categoryPage/EarTreatment'
+import Pregnancy from 'pages/categoryPage/Pregnancy'
 
 type Props = {}
 const App = (props: Props) => {

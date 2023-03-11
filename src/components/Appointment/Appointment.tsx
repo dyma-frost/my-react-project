@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Appointment.scss'
 
 type Props = {}
@@ -11,7 +12,9 @@ const Appointment = (props: Props) => {
                         <h3 className="title">
                             Don't wait and make an appointment today
                         </h3>
-                        <button>Book an appointment</button>
+                        <Link to="/contact">
+                            <button>Book an appointment</button>
+                        </Link>
                     </div>
                 </div>
             </div>
