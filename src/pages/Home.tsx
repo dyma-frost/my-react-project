@@ -1,5 +1,5 @@
 import MainPage1 from 'components/MainPage/MainPage1'
-import MainPage2 from 'components/MainPage/MainPage2'
+import Quote from 'components/Quote/Quote'
 import Specializations from 'components/Specializations/Specializations'
 import ChooseMe from 'components/ChooseMe/ChooseMe'
 import VisitOur from 'components/VisitOur/VisitOur'
@@ -18,7 +18,7 @@ const Home = (props: Props) => {
     return (
         <>
             <MainPage1 />
-            <MainPage2 />
+            <Quote/>
             <Specializations />
             <ChooseMe />
             <VisitOur />

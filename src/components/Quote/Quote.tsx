@@ -1,7 +1,7 @@
-import './MainPage2.scss'
+import './Quote.scss'
 
 type Props = {}
-const MainPage2 = (props: Props) => {
+const Quote = (props: Props) => {
     return (
         <>
             <div className="second-block">
@@ -31,4 +31,4 @@ const MainPage2 = (props: Props) => {
         </>
     )
 }
-export default MainPage2
+export default Quote
