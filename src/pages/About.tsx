@@ -5,17 +5,20 @@ import VisitOur from 'components/VisitOur/VisitOur'
 import Appointment from 'components/Appointment/Appointment'
 import ContactMe from 'components/ContactMe/ContactMe'
 
-
 type Props = {}
 const About = (props: Props) => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+    })
     return (
         <>
             <About1 />
-            <About2/>
+            <About2 />
             <Quote />
             <VisitOur />
             <Appointment />
-            <ContactMe/>
+            <ContactMe />
         </>
     )
 }
