@@ -2,10 +2,6 @@ import articleArray from 'utils/articleArray'
 import Slider from 'react-slick'
 import { Link } from 'react-router-dom'
 
-
-
-
-
 const SimpleSlider = () => {
     const settings = {
         dots: false,

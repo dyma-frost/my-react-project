@@ -9,8 +9,15 @@ type Props = {}
 const Services = (props: Props) => {
     window.scrollTo({
         top: 0,
-        // behavior: 'smooth',
+        behavior: 'smooth',
     })
+    const handleClickScroll = () => {
+        const element = document.getElementById('dental')
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' })
+        }
+    }
+
     return (
         <>
             <div className="services">
@@ -25,15 +32,7 @@ const Services = (props: Props) => {
                                 Varius id consequat consectetur odio elementum
                                 elit enim.
                             </h5>
-                            <button
-                                onClick={() =>
-                                    window.scrollTo({
-                                        top: 600,
-                                        left: 0,
-                                        behavior: 'smooth',
-                                    })
-                                }
-                            >
+                            <button onClick={handleClickScroll}>
                                 Services<span>OO</span>
                                 <i
                                     className="fa fa-chevron-down"
@@ -46,6 +45,7 @@ const Services = (props: Props) => {
                             </button>
                         </div>
                     </div>
+                    <div id="section-1"></div>
                     <ServicesList />
                 </div>
             </div>
@@ -55,4 +55,5 @@ const Services = (props: Props) => {
         </>
     )
 }
+
 export default Services

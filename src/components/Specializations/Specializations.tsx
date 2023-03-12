@@ -1,7 +1,9 @@
 import SimpleSlider from 'components/SimpleSlider/SimpleSlider'
 import './Specializations.scss'
 
-type Props = {}
+type Props = {
+
+}
 const Specializations = (props: Props) => {
     return (
         <>

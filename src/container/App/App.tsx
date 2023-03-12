@@ -13,14 +13,22 @@ import XRay from 'pages/categoryPage/XRay'
 import EarTreatment from 'pages/categoryPage/EarTreatment'
 import Pregnancy from 'pages/categoryPage/Pregnancy'
 
+
 type Props = {}
 const App = (props: Props) => {
+
     return (
         <>
             <Header />
             <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/services" element={<Services />} />
+                <Route
+                    path="/"
+                    element={<Home/>}
+                />
+                <Route
+                    path="/services"
+                    element={<Services />}
+                />
                 <Route path="/about" element={<About />} />
                 <Route path="/packages" element={<Packages />} />
                 <Route path="/contact" element={<Contact />} />

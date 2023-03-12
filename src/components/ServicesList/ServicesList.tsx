@@ -7,8 +7,12 @@ const ServicesList = (props: Props) => {
     return (
         <>
             {articleArray.map((card) => (
-                <div className="card-container">
-                    <div className="card" key={card.id}>
+                <div
+                    className="card-container"
+                    key={card.id}
+                    id={card.category}
+                >
+                    <div className="card">
                         <div className="left-side">
                             <div className="left-side-container">
                                 <h3>{card.title}</h3>
@@ -23,13 +27,6 @@ const ServicesList = (props: Props) => {
                                     <Link to={card.category}>
                                         <button>Read more</button>
                                     </Link>
-
-                                    {/* <span>
-                                        or call us:
-                                        <a href="tel: +38 (000) 000 00 00">
-                                            +38 (000) 000 00 00
-                                        </a>
-                                    </span> */}
                                 </div>
                             </div>
                         </div>

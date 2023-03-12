@@ -9,7 +9,8 @@ import Appointment from 'components/Appointment/Appointment'
 import ContactMe from 'components/ContactMe/ContactMe'
 
 
-type Props = {}
+type Props = {
+}
 const Home = (props: Props) => {
     window.scrollTo({
         top: 0,
@@ -18,15 +19,14 @@ const Home = (props: Props) => {
     return (
         <>
             <MainPage1 />
-            <Quote/>
-            <Specializations />
+            <Quote />
+            <Specializations/>
             <ChooseMe />
             <VisitOur />
             <HealthPlan />
             <SatisfiedPatients />
             <Appointment />
             <ContactMe />
-            
         </>
     )
 }

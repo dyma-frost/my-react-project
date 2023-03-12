@@ -1,5 +1,11 @@
+import FAQ from "components/FAQ/FAQ"
+
 type Props = {}
 const Contact = (props: Props) => {
-    return <div>Contact</div>
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+    })
+    return <FAQ/>
 }
 export default Contact
