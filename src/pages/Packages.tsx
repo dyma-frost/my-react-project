@@ -1,6 +1,7 @@
 
 import Appointment from 'components/Appointment/Appointment'
 import ContactMe from 'components/ContactMe/ContactMe'
+import FAQ from 'components/FAQ/FAQ'
 import PackagesTop from 'components/PackagesTop/PackagesTop'
 import SatisfiedPatients from 'components/SatisfiedPatients/SatisfiedPatients'
 
@@ -14,6 +15,7 @@ const Packages = (props: Props) => {
         <>
             <PackagesTop />
             <SatisfiedPatients />
+            <FAQ/>
             <Appointment />
             <ContactMe/>
         </>
