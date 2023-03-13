@@ -1,0 +1,19 @@
+.phone-with-icon {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        a {
+            width: auto;
+            color: #204289;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 14px;
+            padding-right: 10px;
+            position: relative;
+            img {
+                position: absolute;
+                left: -20px;
+            }
+        }
+        
+        }
+    

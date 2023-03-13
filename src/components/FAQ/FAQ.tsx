@@ -1,16 +1,29 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import faqArray from 'utils/faqArray'
+
 import './FAQ.scss'
 
-type Props = {}
+type Item = {
+    question: string
+    answer: string
+}
 
-const FAQ = (props: Props) => {
-    const [isActive, setActive] = useState(false)
+type MyFaq = {
+    items: Item[]
+}
 
-    const toggleClass = (id: number) => {
-        setActive((id) => !isActive)
-        console.log(id)
-        console.log(isActive)
+type ExpandedState = {
+    [id: number]: boolean
+}
+
+const FAQ = ({ items }: MyFaq) => {
+    const [expanded, setExpanded] = useState<ExpandedState>({})
+
+    const toggleExpanded = (id: number) => {
+        setExpanded((prev) => ({
+            ...prev,
+            [id]: !prev[id],
+        }))
     }
 
     return (
@@ -19,33 +32,41 @@ const FAQ = (props: Props) => {
                 <div className="container">
                     <h2>Frequently Asked Questions</h2>
                     <div className="title-wrapper">
-                        {faqArray.map((item) => (
-                            <div className="ask-wrapper" key={item.id}>
+                        {faqArray.map((item, id) => (
+                            <div className="ask-wrapper">
                                 <div
                                     className="question"
-                                    onClick={() => toggleClass(item.id)}
+                                    key={item.id}
+                                    onClick={() => toggleExpanded(id)}
                                 >
                                     <i
-                                        className="fa fa-plus-circle"
-                                        style={{ color: '#204289' }}
-                                    ></i>
-                                    <i
                                         className={
-                                            isActive
+                                            expanded[id]
                                                 ? 'fa fa-minus-circle show'
-                                                : 'fa'
+                                                : 'fa fa-plus-circle'
                                         }
                                         style={{ color: '#204289' }}
                                     ></i>
                                     {item.question}
+                                    {expanded[id] ? '' : ''}
                                 </div>
-                                <div
-                                    className={
-                                        isActive ? 'show answer' : 'answer'
-                                    }
-                                >
-                                    {item.answer}
-                                </div>
+                                {expanded[id] && (
+                                    <div className="answer">{item.answer}</div>
+                                )}
+                                {/* {expanded[id] && (
+                                    <div
+                                        className={`answer__content ${expanded[id]
+                                                ? 'answer'
+                                                : 'answer__content--expanded'
+                                            }`}
+                                    >
+                                        {item.answer}
+                                    </div>
+                                )} */}
+
+
+
+
                             </div>
                         ))}
                     </div>
@@ -54,4 +75,5 @@ const FAQ = (props: Props) => {
         </>
     )
 }
+
 export default FAQ

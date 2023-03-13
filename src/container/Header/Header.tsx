@@ -2,6 +2,7 @@ import Menu from 'components/Menu/Menu'
 import Logo from 'components/Logo/Logo'
 import './Header.scss'
 import React, { useState } from 'react'
+import PhoneWithIcon from 'components/PhoneWithIcon/PhoneWithIcon'
 
 type Props = {}
 
@@ -25,13 +26,7 @@ const Header = (props: Props) => {
                     <Logo />
                     <Menu />
                     <div className="contact">
-                        <a href="tel: +38 (000) 000 00 00">
-                            <img
-                                src="/images/bedoctor-header-phone-icon.svg"
-                                alt="phonecall-logo"
-                            />
-                            +38 (000) 000 00 00
-                        </a>
+                        <PhoneWithIcon/>
                         <a href="mailto:testmail@mail.com">
                             <img
                                 src="/images/bedoctor-header-mail-icon.svg"
