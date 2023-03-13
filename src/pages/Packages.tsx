@@ -15,7 +15,7 @@ const Packages = (props: Props) => {
         <>
             <PackagesTop />
             <SatisfiedPatients />
-            <FAQ/>
+            <FAQ items={[]}/>
             <Appointment />
             <ContactMe/>
         </>

@@ -1,4 +1,8 @@
-import FAQ from "components/FAQ/FAQ"
+
+import ContactTop from "components/ContactTop/ContactTop"
+
+
+
 
 type Props = {}
 const Contact = (props: Props) => {
@@ -6,6 +10,8 @@ const Contact = (props: Props) => {
         top: 0,
         behavior: 'smooth',
     })
-    return <FAQ/>
+    return (<>
+            <ContactTop/>
+    </>)
 }
 export default Contact

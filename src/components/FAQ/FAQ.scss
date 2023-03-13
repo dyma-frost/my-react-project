@@ -28,7 +28,6 @@
     .title-wrapper {
         margin-top: 60px;
         // border: 1px solid black;
-
     }
     h2 {
         font-weight: 700;
@@ -62,11 +61,14 @@
         background-color: white;
         border-radius: 40px;
         padding: 24px 14px 24px 10px;
-        display: none;
         margin-bottom: 50px;
+        
     }
-    .show{
-        display: block;
-        // overflow: hidden;
-    }
+    // .answer__content {
+    //     overflow: hidden;
+    //     transition: height 1s ease-in-out;
+    // }
+    // .answer__content--expanded{
+    //     height: auto;
+    // }
 }
