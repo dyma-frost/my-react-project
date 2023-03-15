@@ -1,4 +1,5 @@
 
+import ContactMe from "components/ContactMe/ContactMe"
 import ContactTop from "components/ContactTop/ContactTop"
 
 
@@ -11,7 +12,8 @@ const Contact = (props: Props) => {
         behavior: 'smooth',
     })
     return (<>
-            <ContactTop/>
+        <ContactTop />
+        <ContactMe/>
     </>)
 }
 export default Contact

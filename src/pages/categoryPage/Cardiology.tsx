@@ -1,23 +1,42 @@
+
+import cardiologyArray from 'utils/CategoryArrays/cardiologyArray'
+import './Style.scss'
+
+
 type Props = {}
 const Cardiology = (props: Props) => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+    })
     return (
         <>
-            <div>
-                <h1>
-                    CardiologyCardiologyCardiologyCardiologyCardiologyCardiologyCardiology
-                    Cardiology Cardiology Cardiology Cardiology Cardiology
-                    Cardiology Cardiology Cardiology Cardiology Cardiology
-                    Cardiology Cardiology Cardiology Cardiology Cardiology
-                    Cardiology Cardiology Cardiology Cardiology Cardiology
-                    Cardiology Cardiology Cardiology Cardiology Cardiology
-                    Cardiology Cardiology Cardiology Cardiology Cardiology
-                    Cardiology Cardiology Cardiology Cardiology Cardiology
-                    Cardiology Cardiology Cardiology Cardiology Cardiology
-                    Cardiology Cardiology Cardiology Cardiology Cardiology
-                    Cardiology Cardiology Cardiology Cardiology Cardiology
-                    Cardiology Cardiology Cardiology Cardiology Cardiology
-                    Cardiology Cardiology Cardiology Cardiology Cardiology
-                </h1>
+            <div className="blog-page">
+                <div className="container">
+                    <h1>
+                        Our blog about{' '}
+                        <span>{cardiologyArray[0].category}</span>
+                    </h1>
+                    {cardiologyArray.map((item) => (
+                        <div key={item.id} className="card-wrapper">
+                            <div className="image">
+                                <img src={item.image} alt={item.image} />
+                                <button className="like-button"></button>
+                            </div>
+                            <div className="title-wrapper">
+                                <div className="category">
+                                    <p>{item.category}</p>
+                                </div>
+                                <div className="title">
+                                    <h3>{item.title}</h3>
+                                </div>
+                                <div className="description">
+                                    <h5>{item.description}</h5>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
+                </div>
             </div>
         </>
     )

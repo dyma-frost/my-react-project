@@ -1,0 +1,97 @@
+.blog-page {
+    margin-top: -90px;
+    background: rgb(203, 226, 255);
+    background: linear-gradient(
+        111deg,
+        rgba(203, 226, 255, 1) 0%,
+        rgba(219, 235, 255, 1) 28%,
+        rgba(255, 255, 255, 1) 76%,
+        rgba(205, 219, 255, 1) 100%
+    );
+    border-radius: 40px;
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        h1 {
+            width: 100%;
+            padding-top: 200px;
+            font-size: 65px;
+            color: #204289;
+            span {
+                text-transform: capitalize;
+            }
+        }
+    }
+    .card-wrapper {
+        margin-top: 40px;
+        display: flex;
+        width: 45%;
+        flex-direction: column;
+
+        .image {
+            position: relative;
+            img {
+                max-width: 100%;
+                border-radius: 40px 40px 0px 0px;
+            }
+            .like-button {
+                width: 40px;
+                height: 40px;
+                border-radius: 40px;
+                background-color: red;
+                position: absolute;
+                top: 15px;
+                right: 15px;
+            }
+        }
+    }
+    .title-wrapper {
+        border-radius: 0px 0px 40px 40px;
+        box-shadow: 20px 20px 40px 0px rgba(0, 0, 0, 0.1);
+        color: #204289;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        margin-top: -5px;
+        .category {
+            border: 1px solid #2b6cf5;
+            width: 120px;
+            height: 40px;
+            text-align: center;
+            position: absolute;
+            top: 20px;
+            right: 10px;
+            border-radius: 25px;
+            opacity: 0.5;
+            color: #2b6cf5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            // p {
+                // margin-top: calc(50% - 40px);
+            // }
+        }
+        .title {
+            font-size: 30px;
+            width: 80%;
+            h3 {
+                margin: 31px 20px 20px 30px;
+            }
+        }
+        .description {
+            padding: 0px 30px;
+            font-size: 24px;
+            h5 {
+                font-weight: 300;
+            }
+        }
+    }
+}

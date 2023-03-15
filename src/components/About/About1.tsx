@@ -2,6 +2,12 @@ import './About1.scss'
 
 type Props = {}
 const About1 = (props: Props) => {
+    const handleClickScroll = () => {
+        const element = document.getElementById('about-second')
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' })
+        }
+    }
     return (
         <>
             <div className="about">
@@ -19,7 +25,7 @@ const About1 = (props: Props) => {
                             ultrices. Risus in vestibulum turpis velit. Varius
                             id consequat consectetur odio elementum elit enim.
                         </h5>
-                        <button>
+                        <button onClick={handleClickScroll}>
                             My experience<span>00</span>
                             <i
                                 className="fa fa-chevron-down"
