@@ -7,7 +7,7 @@ type Props = {}
 const DentalDep = (props: Props) => {
     window.scrollTo({
         top: 0,
-        behavior: 'smooth',
+
     })
 
     return (

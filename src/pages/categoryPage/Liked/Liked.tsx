@@ -5,6 +5,10 @@ import LikedItem from './LikedItem'
 type Props = {}
 
 const Liked = (props: Props) => {
+    window.scrollTo({
+        top: 0,
+
+    })
     const likeState = useAppSelector((state) => state.likeState)
     const likedPosts = postsArray.filter(
         ({ id }: Posts) => likeState[id]

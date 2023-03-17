@@ -35,7 +35,7 @@ const App = (props: Props) => {
                 <Route path="/services/pediatrics" element={<Pediatrics />} />
                 <Route path="/services/x-ray" element={<XRay />} />
                 <Route
-                    path="/services/ear-treatment"
+                    path="/services/ear treatment"
                     element={<EarTreatment />}
                 />
                 <Route path="/services/pregnancy" element={<Pregnancy />} />

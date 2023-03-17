@@ -58,7 +58,7 @@ const articleArray: Article[] = [
         desc2: 'Ac justo, elementum sed nec consequat odio velit, imperdiet eu risus eget.',
         desc3: 'Nunc in senectus bibendum ut dictum.',
         image: '/images/Ear treatment.webp',
-        category: 'ear-treatment',
+        category: 'ear treatment',
     },
     {
         id: 6,

@@ -6,7 +6,7 @@ type Props = {}
 const EarTreatment = (props: Props) => {
     window.scrollTo({
         top: 0,
-        behavior: 'smooth',
+
     })
     return (
         <>
