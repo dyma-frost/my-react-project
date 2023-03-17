@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './VisitOur.scss'
 
 type Props = {}
@@ -21,7 +22,9 @@ const VisitOur = (props: Props) => {
                                 Level 13, 2 Elizabeth St, Melbourne, Victoria
                                 3000, Australia
                             </h5>
-                            <button>Book an appointment</button>
+                            <Link to="/contact">
+                                <button>Book an appointment</button>
+                            </Link>
                         </div>
                     </div>
                 </div>

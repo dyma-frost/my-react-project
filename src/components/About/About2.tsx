@@ -3,9 +3,10 @@ import './About2.scss'
 
 type Props = {}
 const About2 = (props: Props) => {
+    
     return (
         <>
-            <div className="about-second">
+            <div id="about-second">
                 <div className="container">
                     <div className="left-side">
                         <div className="title">

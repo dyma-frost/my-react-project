@@ -3,6 +3,7 @@ import Logo from 'components/Logo/Logo'
 import './Header.scss'
 import React, { useState } from 'react'
 import PhoneWithIcon from 'components/PhoneWithIcon/PhoneWithIcon'
+import LikeCounter from 'components/LikeCounter/LikeCounter'
 
 type Props = {}
 
@@ -25,8 +26,9 @@ const Header = (props: Props) => {
                 <div className="header-container">
                     <Logo />
                     <Menu />
+                    <LikeCounter />
                     <div className="contact">
-                        <PhoneWithIcon/>
+                        <PhoneWithIcon />
                         <a href="mailto:testmail@mail.com">
                             <img
                                 src="/images/bedoctor-header-mail-icon.svg"

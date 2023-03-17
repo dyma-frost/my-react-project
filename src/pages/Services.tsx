@@ -12,7 +12,7 @@ const Services = (props: Props) => {
         behavior: 'smooth',
     })
     const handleClickScroll = () => {
-        const element = document.getElementById('dental')
+        const element = document.getElementById('dental department')
         if (element) {
             element.scrollIntoView({ behavior: 'smooth' })
         }
