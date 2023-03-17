@@ -32,21 +32,23 @@ const LikedItem = ({ id, image, title, description, category }: Props) => {
                         ></i>
                     </button>
                 </div>
-                <div className="title-wrapper">
-                    <div className="category">
-                        <Link to={`/services/${category}`}>
-                            <button>
-                                <p>{category}</p>
-                            </button>
-                        </Link>
+                <Link to={`/services/${id}`}>
+                    <div className="title-wrapper">
+                        <div className="category">
+                            <Link to={`/services/${category}`}>
+                                <button>
+                                    <p>{category}</p>
+                                </button>
+                            </Link>
+                        </div>
+                        <div className="title">
+                            <h3>{title}</h3>
+                        </div>
+                        <div className="description">
+                            <h5>{description}</h5>
+                        </div>
                     </div>
-                    <div className="title">
-                        <h3>{title}</h3>
-                    </div>
-                    <div className="description">
-                        <h5>{description}</h5>
-                    </div>
-                </div>
+                </Link>
             </div>
         </>
     )

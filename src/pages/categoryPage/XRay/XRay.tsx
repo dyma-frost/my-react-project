@@ -8,7 +8,7 @@ type Props = {}
 const XRay = (props: Props) => {
     window.scrollTo({
         top: 0,
-        behavior: 'smooth',
+
     })
     return (
         <>

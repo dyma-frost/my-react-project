@@ -36,11 +36,11 @@ header {
     }
 
     .menu {
-        width: 50%;
-        height: 60px;
+        width: 41vw;
+        height: 3.2vw;
         display: flex;
         font-family: 'Plus Jakarta Sans', sans-serif;
-        font-size: 20px;
+        font-size: 1.1vw;
         background-color: white;
         display: flex;
         align-items: center;
@@ -60,7 +60,7 @@ header {
                 color: white;
                 background-color: #2b6cf5;
                 border-radius: 40px;
-                height: 54px;
+                height: 2.9vw;
                 align-items: center;
                 margin: 5px;
             }
@@ -76,7 +76,7 @@ header {
             color: white;
             background-color: #2b6cf5;
             border-radius: 40px;
-            height: 54px;
+            height: 2.9vw;
             align-items: center;
             margin: 5px;
             transition: 0.5s;
