@@ -11,6 +11,8 @@ export type Posts = {
     title: string
     description: string
     category: string
+    fullDesc1: string
+    fullDesc2: string
 }
 
 const postsArray: Posts[] = cardiologyArray.concat(dentaldepArray, eartreatmentArray, pediatricsArray, pregnancyArray, xrayArray)
@@ -234,13 +236,13 @@ const postsArray: Posts[] = cardiologyArray.concat(dentaldepArray, eartreatmentA
     // },
 // ]
 
-// export const getProductsObject = (array: Article[]) =>
-//     array.reduce(
-//         (object, product) => ({
-//             ...object,
-//             [product.id]: product,
-//         }),
-//         {}
-//     )
+export const getPostsObject = (array: Posts[]) =>
+    array.reduce(
+        (object, product) => ({
+            ...object,
+            [product.id]: product,
+        }),
+        {}
+    )
 
 export default postsArray

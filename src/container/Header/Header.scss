@@ -3,6 +3,7 @@ header {
     position: sticky;
     top: 0;
     transition: 0.5s;
+    z-index: 99;
 }
 .header-sticky {
     height: 100px;

@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom"
-import { useAppDispatch, useAppSelector } from "redux/hooks"
-import { addLike, removeLike } from "redux/likeReducer"
+import { Link } from 'react-router-dom'
+import { useAppDispatch, useAppSelector } from 'redux/hooks'
+import { addLike, removeLike } from 'redux/likeReducer'
 
 type Props = {
     id: number
@@ -9,8 +9,9 @@ type Props = {
     description: string
     category: string
 }
+
 const CardiologyItem = ({ id, image, title, description, category }: Props) => {
-    const isLiked = useAppSelector((state) => state.productsLikeState[id])
+    const isLiked = useAppSelector((state) => state.likeState[id])
     const dispatch = useAppDispatch()
     return (
         <>
@@ -32,21 +33,23 @@ const CardiologyItem = ({ id, image, title, description, category }: Props) => {
                         ></i>
                     </button>
                 </div>
-                <div className="title-wrapper">
-                    <div className="category">
-                        <Link to={`/services/${category}`}>
-                            <button>
-                                <p>{category}</p>
-                            </button>
-                        </Link>
+                <Link to={`/services/${id}`}>
+                    <div className="title-wrapper">
+                        <div className="category">
+                            <Link to={`/services/${category}`}>
+                                <button>
+                                    <p>{category}</p>
+                                </button>
+                            </Link>
+                        </div>
+                        <div className="title">
+                            <h3>{title}</h3>
+                        </div>
+                        <div className="description">
+                            <h5>{description}</h5>
+                        </div>
                     </div>
-                    <div className="title">
-                        <h3>{title}</h3>
-                    </div>
-                    <div className="description">
-                        <h5>{description}</h5>
-                    </div>
-                </div>
+                </Link>
             </div>
         </>
     )

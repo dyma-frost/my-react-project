@@ -22,15 +22,18 @@ const SimpleSlider = () => {
                             <div className="card-top">
                                 <img src={image} alt={title} />
                             </div>
-                            <div className="card-bottom">
-                                <h3>{title}</h3>
-                                {/* <h6>{description}</h6> */}
-                                <Link to={`/services/${category}`}>
-                                    <button>
-                                        See more about <span>{category}</span>
-                                    </button>
-                                </Link>
-                            </div>
+                            <Link to={`/services/${id}`}>
+                                <div className="card-bottom">
+                                    <h3>{title}</h3>
+                                    {/* <h6>{description}</h6> */}
+                                    <Link to={`/services/${category}`}>
+                                        <button>
+                                            See more about{' '}
+                                            <span>{category}</span>
+                                        </button>
+                                    </Link>
+                                </div>
+                            </Link>
                         </div>
                     )
                 )}

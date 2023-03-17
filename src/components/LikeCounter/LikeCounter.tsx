@@ -4,7 +4,7 @@ import './LikeCounter.scss'
 
 type Props = {}
 const LikeCounter = (props: Props) => {
-    const myState = store.getState().productsLikeState
+    const myState = store.getState().likeState
     const trueValues = Object.values(myState).filter(
         (item: boolean) => item === true
     )

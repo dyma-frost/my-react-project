@@ -11,7 +11,7 @@ type Props = {
 }
 
 const XRayItem = ({ id, image, title, description, category }: Props) => {
-    const isLiked = useAppSelector((state) => state.productsLikeState[id])
+    const isLiked = useAppSelector((state) => state.likeState[id])
     const dispatch = useAppDispatch()
     return (
         <>
