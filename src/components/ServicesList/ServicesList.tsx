@@ -24,7 +24,7 @@ const ServicesList = (props: Props) => {
                                 </ul>
                                 <hr />
                                 <div className="buttons-block">
-                                    <Link to={card.category}>
+                                    <Link to={`/services/${card.category}`}>
                                         <button>Read more</button>
                                     </Link>
                                 </div>

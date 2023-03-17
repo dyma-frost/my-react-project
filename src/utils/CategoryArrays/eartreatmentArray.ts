@@ -8,7 +8,7 @@ export type Article = {
 
 const eartreatmentArray: Article[] = [
     {
-        id: 1,
+        id: 12,
         image: '/images/category/ear-treatment/ear-treatment-1.jpg',
         title: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         description:
@@ -16,7 +16,7 @@ const eartreatmentArray: Article[] = [
         category: 'ear treatment',
     },
     {
-        id: 2,
+        id: 13,
         image: '/images/category/ear-treatment/ear-treatment-2.jpg',
         title: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         description:
@@ -24,7 +24,7 @@ const eartreatmentArray: Article[] = [
         category: 'ear treatment',
     },
     {
-        id: 3,
+        id: 14,
         image: '/images/category/ear-treatment/ear-treatment-3.jpg',
         title: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         description:
@@ -32,7 +32,7 @@ const eartreatmentArray: Article[] = [
         category: 'ear treatment',
     },
     {
-        id: 4,
+        id: 15,
         image: '/images/category/ear-treatment/ear-treatment-4.jpg',
         title: 'Lorem ipsum dolor adipisicing elit.',
         description:
@@ -40,7 +40,7 @@ const eartreatmentArray: Article[] = [
         category: 'ear treatment',
     },
     {
-        id: 5,
+        id: 16,
         image: '/images/category/ear-treatment/ear-treatment-5.jpg',
         title: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         description:

@@ -2,8 +2,13 @@
     // height: 1200px;
     margin-top: 50px;
     border-radius: 40px;
-    background: rgb(155,204,255);
-background: linear-gradient(139deg, rgba(155,204,255,1) 0%, rgba(255,255,255,1) 49%, rgba(161,207,255,1) 100%);
+    background: rgb(155, 204, 255);
+    background: linear-gradient(
+        139deg,
+        rgba(155, 204, 255, 1) 0%,
+        rgba(255, 255, 255, 1) 49%,
+        rgba(161, 207, 255, 1) 100%
+    );
     display: flex;
     justify-content: center;
 
@@ -41,28 +46,32 @@ background: linear-gradient(139deg, rgba(155,204,255,1) 0%, rgba(255,255,255,1) 
                 text-align: center;
             }
         }
-
+        .slick-track {
+            display: flex;
+            align-items: center;
+        }
         .slick-slider {
             margin-top: 50px;
             margin-bottom: 50px;
             width: 100%;
-            .slick-prev{
+
+            .slick-prev {
                 width: 100px;
                 height: 250px;
                 left: -70px;
                 z-index: 10;
             }
-            .slick-next{
+            .slick-next {
                 width: 100px;
                 height: 250px;
                 right: -70px;
                 z-index: 10;
             }
-            
 
-            .slick-list {
-                margin: 0 auto;
-            }
+            // .slick-list {
+            // margin: 0 auto;
+
+            // }
 
             .slick-slide {
                 display: flex;
@@ -107,7 +116,7 @@ background: linear-gradient(139deg, rgba(155,204,255,1) 0%, rgba(255,255,255,1) 
                     transition: 0.5s;
 
                     h3 {
-                        margin: 0;
+                        margin: 0px 5px 0px 10px;
                         padding-top: 40px;
                         color: #204289;
                         font-size: 28px;
@@ -116,16 +125,16 @@ background: linear-gradient(139deg, rgba(155,204,255,1) 0%, rgba(255,255,255,1) 
                         letter-spacing: -1px;
                     }
 
-                    h6 {
-                        margin-top: 20px;
-                        color: #204289;
-                        font-size: 14px;
-                        font-weight: 300;
-                    }
+                    // h6 {
+                    //     margin-top: 20px;
+                    //     color: #204289;
+                    //     font-size: 14px;
+                    //     font-weight: 300;
+                    // }
 
                     button {
-                        margin-top: 20px;
-                        width: 180px;
+                        margin-top: 40px;
+                        // width: 180px;
                         height: 60px;
                         background-color: white;
                         font-family: 'Plus Jakarta Sans', sans-serif;
@@ -137,7 +146,12 @@ background: linear-gradient(139deg, rgba(155,204,255,1) 0%, rgba(255,255,255,1) 
                         border: 1px solid lightgray;
                         transition: 0.5s;
                         cursor: pointer;
-
+                        
+                        span {
+                            text-transform: capitalize;
+                            font-weight: 700;
+                            
+                        }
                         &:hover {
                             border: 1px solid #2b6cf5;
                             transition: 0.5s;

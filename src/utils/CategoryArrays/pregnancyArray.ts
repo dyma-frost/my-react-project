@@ -8,7 +8,7 @@ export type Article = {
 
 const pregnancyArray: Article[] = [
     {
-        id: 1,
+        id: 23,
         image: '/images/category/pregnancy/pregnancy-1.jpg',
         title: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         description:
@@ -16,7 +16,7 @@ const pregnancyArray: Article[] = [
         category: 'pregnancy',
     },
     {
-        id: 2,
+        id: 24,
         image: '/images/category/pregnancy/pregnancy-2.jpg',
         title: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         description:
@@ -24,7 +24,7 @@ const pregnancyArray: Article[] = [
         category: 'pregnancy',
     },
     {
-        id: 3,
+        id: 25,
         image: '/images/category/pregnancy/pregnancy-3.jpg',
         title: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         description:
@@ -32,7 +32,7 @@ const pregnancyArray: Article[] = [
         category: 'pregnancy',
     },
     {
-        id: 4,
+        id: 26,
         image: '/images/category/pregnancy/pregnancy-4.jpg',
         title: 'Lorem ipsum dolor adipisicing elit.',
         description:
@@ -40,7 +40,7 @@ const pregnancyArray: Article[] = [
         category: 'pregnancy',
     },
     {
-        id: 5,
+        id: 27,
         image: '/images/category/pregnancy/pregnancy-5.jpg',
         title: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         description:

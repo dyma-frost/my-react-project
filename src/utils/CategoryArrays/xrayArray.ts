@@ -9,7 +9,7 @@ export type Article = {
 
 const xrayArray: Article[] = [
     {
-        id: 1,
+        id: 28,
         image: '/images/category/x-ray/x-ray-1.jpg',
         title: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         description:
@@ -17,7 +17,7 @@ const xrayArray: Article[] = [
         category: 'x-ray',
     },
     {
-        id: 2,
+        id: 29,
         image: '/images/category/x-ray/x-ray-5.jpg',
         title: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         description:
@@ -25,7 +25,7 @@ const xrayArray: Article[] = [
         category: 'x-ray',
     },
     {
-        id: 3,
+        id: 30,
         image: '/images/category/x-ray/x-ray-3.jpg',
         title: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         description:
@@ -33,7 +33,7 @@ const xrayArray: Article[] = [
         category: 'x-ray',
     },
     {
-        id: 4,
+        id: 31,
         image: '/images/category/x-ray/x-ray-4.jpg',
         title: 'Lorem ipsum dolor adipisicing elit.',
         description:
@@ -42,7 +42,7 @@ const xrayArray: Article[] = [
     },
     
     {
-        id: 5,
+        id: 32,
         image: '/images/category/x-ray/x-ray-2.jpg',
         title: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         description:

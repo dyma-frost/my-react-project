@@ -52,11 +52,8 @@ header {
             justify-content: center;
         }
 
-        .menu-item {
+        .menu-item{
             color: #204289;
-            
-            // margin: 5px 10px 5px 10px;
-            // transition: 0.5s;
             margin: 5px;
             &:hover {
                 color: white;
@@ -65,9 +62,14 @@ header {
                 height: 54px;
                 align-items: center;
                 margin: 5px;
-                // transition: 1s;
             }
+            // &:hover span{
+            //     color: white;
+            // }
         }
+        // .menu-item:last-child{
+        //     width: 80px;
+        // }
 
         .menu-item-active {
             color: white;
@@ -76,9 +78,18 @@ header {
             height: 54px;
             align-items: center;
             margin: 5px;
-            // padding: 10px;
             transition: 0.5s;
+            // span{
+            //     color: white;
+            // }
         }
+        
+        // .menu-item-active:last-child{
+        //     width: 80px;
+        //     span{
+        //         color: white;
+        //     }
+        // }
     }
 
     .contact {
