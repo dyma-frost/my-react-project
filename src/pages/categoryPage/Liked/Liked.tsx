@@ -5,9 +5,9 @@ import LikedItem from './LikedItem'
 type Props = {}
 
 const Liked = (props: Props) => {
-    const productsLikeState = useAppSelector((state) => state.productsLikeState)
+    const likeState = useAppSelector((state) => state.likeState)
     const likedPosts = postsArray.filter(
-        ({ id }: Posts) => productsLikeState[id]
+        ({ id }: Posts) => likeState[id]
     )
     return (
         <>

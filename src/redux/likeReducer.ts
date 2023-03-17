@@ -1,13 +1,13 @@
 import { createSlice } from '@reduxjs/toolkit'
 
-type likeProductsType = {
+type likePostsType = {
     [id: number]: boolean
 }
 
-export const initialState: likeProductsType = {
+export const initialState: likePostsType = {
     1: true,
-    5: true,
     10: true,
+    25: true,
 }
 
 export const likeSlice = createSlice({

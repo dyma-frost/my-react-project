@@ -13,33 +13,11 @@ import XRay from 'pages/categoryPage/XRay/XRay'
 import EarTreatment from 'pages/categoryPage/EarTreatment/EarTreatment'
 import Pregnancy from 'pages/categoryPage/Pregnancy/Pregnancy'
 import Liked from 'pages/categoryPage/Liked/Liked'
-// import { useState } from 'react'
-// import { omit } from 'lodash'
+import ArticlePage from 'pages/ArticlePage'
 
 type Props = {}
 
-// type Favorites = {
-//     [id: number]: number
-    
-// }
-
 const App = (props: Props) => {
-    // const [favorites, setFavorites] = useState<Favorites>({
-    //     1: 1,
-    //     20: 1,
-    // })
-
-    // const addFavorites = (id: number) => {
-    //     setFavorites((prevState) => ({
-    //         ...prevState,
-    //         [id]: prevState[id],
-    //     }))
-    // }
-    // const removeFavorites = (id: number) => {
-    //     setFavorites((prevState) => omit(prevState, [id]))
-    // }
-
-    // console.log({ favorites })
     return (
         <>
             <Header />
@@ -49,7 +27,6 @@ const App = (props: Props) => {
                 <Route path="/about" element={<About />} />
                 <Route path="/packages" element={<Packages />} />
                 <Route path="/contact" element={<Contact />} />
-
                 <Route
                     path="/services/dental department"
                     element={<DentalDep />}
@@ -62,11 +39,8 @@ const App = (props: Props) => {
                     element={<EarTreatment />}
                 />
                 <Route path="/services/pregnancy" element={<Pregnancy />} />
-
-                <Route
-                    path="/favorites"
-                    element={<Liked /* favorites={favorites} */ />}
-                />
+                <Route path="/favorites" element={<Liked />} />
+                <Route path="/services/:id" element={<ArticlePage />} />
             </Routes>
             <Footer />
         </>

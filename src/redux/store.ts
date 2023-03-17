@@ -3,7 +3,7 @@ import likeReducer from './likeReducer'
 
 export const store = configureStore({
     reducer: {
-        productsLikeState: likeReducer,
+        likeState: likeReducer,
     },
 })
 

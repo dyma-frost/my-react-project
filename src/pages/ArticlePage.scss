@@ -1,0 +1,97 @@
+.article-page {
+    margin-top: -90px;
+    // min-height: 1600px;
+    // min-height: 90vh;
+    background: rgb(203, 226, 255);
+    background: linear-gradient(
+        111deg,
+        rgba(203, 226, 255, 1) 0%,
+        rgba(219, 235, 255, 1) 28%,
+        rgba(255, 255, 255, 1) 76%,
+        rgba(205, 219, 255, 1) 100%
+    );
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+        width: 80%;
+        margin-top: 180px;
+        padding-bottom: 100px;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    .card-wrapper {
+        margin: 0 auto;
+        width: 80%;
+
+        img {
+            width: 62.7vw;
+            border-radius: 40px;
+            z-index: 0;
+        }
+    }
+    .category {
+        button {
+            border: 1px solid #2b6cf5;
+            width: 9vw;
+            height: 3vw;
+            text-align: center;
+            font-size: 1vw;
+            position: absolute;
+            top: -75px;
+            right: 10px;
+            border-radius: 40px;
+            opacity: 1;
+            color: #2b6cf5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: 0.5s;
+            &:hover {
+                font-size: 1.2vw;
+                transition: 0.7s;
+            }
+        }
+    }
+    .title-wrapper {
+        margin-top: 90px;
+        border-radius: 40px;
+        box-shadow: 20px 20px 40px 0px rgba(0, 0, 0, 0.2);
+        color: #204289;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+
+        .title {
+            font-size: 4vh;
+            width: 80%;
+            h3 {
+                margin: 31px 20px 20px 30px;
+            }
+        }
+        .description {
+            padding: 0px 30px;
+            font-size: 1.2vw;
+            h5 {
+                font-weight: 300;
+            }
+        }
+        .full-desc {
+            padding: 0 10px;
+            h4 {
+                font-size: 3vh;
+            }
+            h6 {
+                font-size: 2vh;
+                font-weight: 300;
+            }
+            span {
+                color: #2b6cf5;
+            }
+        }
+    }
+}
