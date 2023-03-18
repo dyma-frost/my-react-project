@@ -103,7 +103,7 @@
 }
 div[id='dental department'] .card,
 #pediatrics .card,
-#ear-treatment .card {
+div[id='ear treatment'] .card {
     display: flex;
     flex-direction: row-reverse;
     .left-side {
