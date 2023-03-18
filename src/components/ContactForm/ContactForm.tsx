@@ -5,6 +5,7 @@ const ContactForm = (props: Props) => {
     return (
         <>
             <div className="contact-form">
+                
                 <div className="container-form">
                     <div className="title-wrapper">
                         <h6>CONTACT FORM</h6>
@@ -31,7 +32,7 @@ const ContactForm = (props: Props) => {
                                 name="email"
                                 placeholder="E-mail address"
                             ></input>
-                            <textarea placeholder='Your message...'></textarea>
+                            <textarea placeholder="Your message..."></textarea>
                         </form>
                     </div>
                     <button>Send a message</button>

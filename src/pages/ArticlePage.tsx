@@ -1,3 +1,4 @@
+import Reviews from "components/Reviews/Reviews"
 import { Link, useParams } from "react-router-dom"
 import postsArray, { getPostsObject, Posts } from "utils/postsArray"
 
@@ -69,6 +70,7 @@ const ArticlePage = ({postsObject = getPostsObject(postsArray)}: Props) => {
                     </div>
                 </div>
             </div>
+            <Reviews/>
         </>
     )
 }
