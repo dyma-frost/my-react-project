@@ -3,13 +3,13 @@ import { store } from 'redux/store'
 import './LikeCounter.scss'
 
 type Props = {}
+
 const LikeCounter = (props: Props) => {
     const myState = store.getState().likeState
     const trueValues = Object.values(myState).filter(
         (item: boolean) => item === true
     )
     const trueValuesCount = trueValues.length
-    console.log(trueValues)
 
     return (
         <>
