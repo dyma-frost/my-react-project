@@ -8,7 +8,12 @@ const Appointment = (props: Props) => {
             <div className="eighth-block">
                 <div className="container">
                     <div className="central-side">
-                        <div className="logo"></div>
+                        <div className="logo">
+                            <img
+                                src="images/bedoctor-icon4.svg"
+                                alt="bedoctor-icon4"
+                            />
+                        </div>
                         <h3 className="title">
                             Don't wait and make an appointment today
                         </h3>

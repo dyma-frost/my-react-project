@@ -1,35 +1,35 @@
 .fourth-block {
-    margin-top: 50px;
-    height: 700px;
+    margin-top: 2.6vw;
+    height: 36.45vw;
     background-image: url(../../../public/images/bedoctor-section-bg3.webp);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    border-radius: 40px;
+    border-radius: 2.08vw;
     .container {
         margin: 0 auto;
         width: calc(100% - 20%);
     }
     .top-side {
-        height: 350px;
+        height: 18.22vw;
         h2 {
-            padding-top: 70px;
+            padding-top: 3.65vw;
             font-family: 'Plus Jakarta Sans', sans-serif;
-            font-size: 50px;
+            font-size: 2.6vw;
             font-weight: 700;
-            letter-spacing: -1px;
+            letter-spacing: -0.05vw;
             color: white;
         }
         button {
-            width: 200px;
-            height: 50px;
+            width: 10.4vw;
+            height: 2.6vw;
             background-color: #2b6cf5;
             border-color: transparent;
             font-family: 'Plus Jakarta Sans', sans-serif;
-            font-size: 15px;
-            padding: 16px 25px 16px 25px;
-            border-radius: 38px;
-            line-height: 15px;
+            font-size: 0.9vw;
+            padding: 0.83vw 1.3vw 0.83vw 1.3vw;
+            border-radius: 40px;
+            line-height: 0.3vw;
             color: white;
             transition: 0.5s;
             cursor: pointer;
@@ -43,22 +43,22 @@
     }
 
     .bottom-side {
-        height: 350px;
+        height: 18.22vw;
         display: flex;
 
         [class*='description'] {
-            height: 200px;
-            width: 300px;
+            height: 10.41vw;
+            width: 15.6vw;
             font-family: 'Plus Jakarta Sans', sans-serif;
             font-weight: 300;
-            font-size: 20px;
+            font-size: 1.04vw;
             color: white;
-            margin-right: 100px;
+            margin-right: 5.2vw;
             p {
-                font-size: 65px;
-                margin-top: 20px;
-                margin-bottom: 10px;
-                margin-left: -10px;
+                font-size: 3.38vw;
+                margin-top: 1.04vw;
+                margin-bottom: 0.52vw;
+                margin-left: -0.52vw;
             }
         }
     }

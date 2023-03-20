@@ -8,27 +8,27 @@
         rgba(255, 255, 255, 1) 38%,
         rgba(114, 183, 255, 1) 100%
     );
-    border-radius: 40px;
+    border-radius: 2.08vw;
     .container {
         width: 80%;
         margin: 0 auto;
-        padding: 50px 0px 50px 0px;
+        padding: 2.6vw 0px 2.6vw 0px;
     }
     h3 {
         font-size: 2.5vw;
         color: #2b6cf5;
     }
     .review {
-        margin-top: 10px;
-        padding: 20px;
-        border-radius: 40px;
+        margin-top: 0.52vw;
+        padding: 1.04vw;
+        border-radius: 2.08vw;
         background-color: white;
         div:nth-child(1) {
             color: #2b6cf5;
             font-size: 1.4vw;
         }
         h6 {
-            margin-top: 10px;
+            margin-top: 0.52vw;
             font-size: 0.7vw;
             color: #2b6cf5;
         }
@@ -44,9 +44,9 @@
         margin: 0 auto;
         width: 35%;
         height: 20vw;
-        margin-top: 40px;
+        margin-top: 2.08vw;
         background-color: white;
-        border-radius: 40px;
+        border-radius: 2.08vw;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -57,32 +57,33 @@
     input,
     textarea {
         font-family: 'Plus Jakarta Sans', sans-serif;
-        font-size: 16px;
+        font-size: 0.83vw;
         color: #2b6cf5;
-        margin-top: 15px;
-        margin-left: 20px;
-        height: 35px;
+        margin-top: 0.78vw;
+        margin-left: 1.04vw;
+        height: 2vw;
         width: 90%;
-        border-radius: 40px;
-        padding-left: 20px;
+        border-radius: 2.08vw;
+        padding-left: 1.04vw;
         display: block;
         border: 1px solid rgb(232, 232, 232);
     }
     textarea {
-        height: 55px;
+        height: 2.86vw;
         
     }
     button {
-        width: 28%;
+        width: 9vw;
+        height: 2vw;
         position: absolute;
-        bottom: 30px;
-        right: 10px;
+        bottom: 1.56vw;
+        right: 0.52vw;
         background-color: #2b6cf5;
         border-color: #2b6cf5;
         font-family: 'Plus Jakarta Sans', sans-serif;
-        font-size: 17px;
-        padding: 8px 8px 8px 8px;
-        border-radius: 40px;
+        font-size: 0.88vw;
+        padding: 0.41vw;
+        border-radius: 2.08vw;
         border-width: 1px;
 
         color: white;

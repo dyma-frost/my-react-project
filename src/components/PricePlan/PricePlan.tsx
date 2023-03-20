@@ -41,7 +41,6 @@ const PricePlan = (props: Props) => {
                             <p>Day and night emergency care</p>
                             <p>Two more home visits a year</p>
                         </div>
-                        {/* <button>Choose</button> */}
                         <Link to="/packages">
                             <button>Choose</button>
                         </Link>

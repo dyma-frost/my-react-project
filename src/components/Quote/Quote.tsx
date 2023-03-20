@@ -7,10 +7,18 @@ const Quote = (props: Props) => {
             <div className="second-block">
                 <div className="container">
                     <div className="left-side">
-                        <img src="/images/bedoctor-home-pic2.webp" alt="" />
+                        <img
+                            src="/images/bedoctor-home-pic2.webp"
+                            alt="bedoctor-home-pic2"
+                        />
                     </div>
                     <div className="right-side">
-                        <div className="icon"></div>
+                        <div className="icon">
+                            <img
+                                src="images/bedoctor-icon1.svg"
+                                alt="bedoctor-icon1"
+                            />
+                        </div>
                         <div className="title">
                             <h4>
                                 Lorem ipsum dolor sit amet consectetur
