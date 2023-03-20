@@ -33,10 +33,9 @@ const FAQ = ({ items }: MyFaq) => {
                     <h2>Frequently Asked Questions</h2>
                     <div className="title-wrapper">
                         {faqArray.map((item, id) => (
-                            <div className="ask-wrapper">
+                            <div className="ask-wrapper" key={item.id}>
                                 <div
                                     className="question"
-                                    key={item.id}
                                     onClick={() => toggleExpanded(id)}
                                 >
                                     <i
@@ -53,20 +52,6 @@ const FAQ = ({ items }: MyFaq) => {
                                 {expanded[id] && (
                                     <div className="answer">{item.answer}</div>
                                 )}
-                                {/* {expanded[id] && (
-                                    <div
-                                        className={`answer__content ${expanded[id]
-                                                ? 'answer'
-                                                : 'answer__content--expanded'
-                                            }`}
-                                    >
-                                        {item.answer}
-                                    </div>
-                                )} */}
-
-
-
-
                             </div>
                         ))}
                     </div>
