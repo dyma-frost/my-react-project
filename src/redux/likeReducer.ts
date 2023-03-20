@@ -5,9 +5,7 @@ type likePostsType = {
 }
 
 export const initialState: likePostsType = {
-    // 1: true,
-    // 10: true,
-    // 25: true,
+
 }
 
 export const likeSlice = createSlice({

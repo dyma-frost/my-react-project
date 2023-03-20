@@ -7,7 +7,6 @@ type Props = {}
 const DentalDep = (props: Props) => {
     window.scrollTo({
         top: 0,
-
     })
 
     return (
@@ -15,8 +14,7 @@ const DentalDep = (props: Props) => {
             <div className="blog-page">
                 <div className="container">
                     <h1>
-                        Our blog about{' '}
-                        <span>{dentaldepArray[0].category}</span>
+                        Our blog about <span>{dentaldepArray[0].category}</span>
                     </h1>
                     {dentaldepArray.map(
                         ({ id, image, title, description, category }) => (

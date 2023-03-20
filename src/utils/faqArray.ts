@@ -37,13 +37,4 @@ const faqArray: Faq[] = [
     },
 ]
 
-// export const getProductsObject = (array: Faq[]) =>
-//     array.reduce(
-//         (object, product) => ({
-//             ...object,
-//             [product.id]: product,
-//         }),
-//         {}
-//     )
-
 export default faqArray

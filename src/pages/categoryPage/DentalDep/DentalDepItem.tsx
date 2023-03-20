@@ -12,7 +12,7 @@ type Props = {
 const DentalDepItem = ({ id, image, title, description, category }: Props) => {
     const isLiked = useAppSelector((state) => state.likeState[id])
     const dispatch = useAppDispatch()
-    
+
     return (
         <>
             <div key={id} className="card-wrapper">

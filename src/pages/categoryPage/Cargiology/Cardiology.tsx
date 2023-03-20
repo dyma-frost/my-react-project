@@ -2,14 +2,12 @@ import cardiologyArray from 'utils/CategoryArrays/cardiologyArray'
 import CardiologyItem from './CardiologyItem'
 import '../Style.scss'
 
-
 type Props = {}
 const Cardiology = (props: Props) => {
     window.scrollTo({
         top: 0,
-
     })
-    
+
     return (
         <>
             <div className="blog-page">
