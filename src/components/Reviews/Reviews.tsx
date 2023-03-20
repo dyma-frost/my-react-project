@@ -69,7 +69,7 @@ const Reviews = (props: Props) => {
             <div className="reviews-wrap">
                 <div className="container">
             <h3>Reviews about us</h3>
-                    {reviews.map((item, i) => (
+                    {reviews.map((item) => (
                         <div className="review">
                             <div className='review-name'>{item.name}</div>
                             <h6>{item.date}</h6>

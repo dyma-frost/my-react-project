@@ -1,13 +1,12 @@
-import pediatricsArray from "utils/CategoryArrays/pediatricsArray"
+import pediatricsArray from 'utils/CategoryArrays/pediatricsArray'
 
 import '../Style.scss'
-import PediatricsItem from "./PediatricsItem"
+import PediatricsItem from './PediatricsItem'
 
 type Props = {}
 const Pediatrics = (props: Props) => {
     window.scrollTo({
         top: 0,
-
     })
     return (
         <>
