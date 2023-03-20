@@ -16,7 +16,7 @@ const ContactTop = (props: Props) => {
                         <div className="left-side">
                             <div className="top-side">
                                 <h6>address</h6>
-                                <a href="https://goo.gl/maps/3JDv6S1rLwe1NJ8d7">
+                                <a target="_blank" href="https://goo.gl/maps/3JDv6S1rLwe1NJ8d7" rel="noreferrer">
                                     <h4>
                                         Level 13, 2 Elizabeth St, Melbourne,
                                         Victoria 3000, Australia83 766 284

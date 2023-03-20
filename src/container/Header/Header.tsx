@@ -31,6 +31,7 @@ const Header = (props: Props) => {
                         <PhoneWithIcon />
                         <a href="mailto:testmail@mail.com">
                             <img
+                                className="circle-button"
                                 src="/images/bedoctor-header-mail-icon.svg"
                                 alt="mail-logo"
                             />

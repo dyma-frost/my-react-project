@@ -28,9 +28,8 @@ header {
     background-color: transparent;
 
     a {
-        width: 210px;
+        width: 10vw;
         text-decoration: none;
-
         cursor: pointer;
     }
 
@@ -63,35 +62,39 @@ header {
                 align-items: center;
                 margin: 5px;
             }
-            .menu-item-active {
-                color: white;
-                background-color: #2b6cf5;
-                border-radius: 40px;
-                height: 2.9vw;
-                align-items: center;
-                margin: 5px;
-                transition: 0.5s;
-            }
         }
 
-        .contact {
-            display: flex;
+        .menu-item-active {
+            color: white;
+            background-color: #2b6cf5;
+            border-radius: 40px;
+            height: 2.9vw;
             align-items: center;
-            justify-content: space-between;
-            a {
-                width: auto;
-                color: #204289;
-                font-family: 'Plus Jakarta Sans', sans-serif;
-                font-size: 14px;
-            }
-            a:first-child {
-                padding-right: 10px;
-                position: relative;
-                img {
-                    position: absolute;
-                    left: -20px;
-                }
-            }
+            margin: 5px;
+            transition: 0.5s;
         }
+    }
+
+    .contact {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        a {
+            width: auto;
+            color: #204289;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 0.8vw;
+        }
+        .circle-button{
+            width: 2.82vw;
+        }
+        // a:first-child {
+        //     padding-right: 10px;
+        //     position: relative;
+        //     img {
+        //         position: absolute;
+        //         left: -20px;
+        //     }
+        // }
     }
 }
