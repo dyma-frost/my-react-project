@@ -23,7 +23,7 @@ const ContactForm = (props: Props) => {
                                 placeholder="Full name"
                             ></input>
                             <input
-                                type="number"
+                                type="phone"
                                 name="phone"
                                 placeholder="Phone"
                             ></input>

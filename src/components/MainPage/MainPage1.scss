@@ -1,5 +1,5 @@
 .first-block {
-    height: 1100px;
+    height: 60vw;
     margin-top: -90px;
     background: rgb(255, 231, 214);
     background: linear-gradient(
@@ -13,19 +13,15 @@
     border-radius: 40px;
 
     .container {
-        // width: 1800px;
         width: 80%;
         display: flex;
     }
     .left-side {
-        // border: 1px solid black;
         max-width: 50%;
         display: flex;
         flex-direction: column;
-        // align-items: center;
         justify-content: center;
-        font-size: 250%;
-        // font-size: calc(10vw - 150px);
+        font-size: 2vw;
         line-height: 110px;
         font-weight: 700;
         letter-spacing: -3px;
@@ -57,7 +53,6 @@
             padding-left: 3px;
 
             .blue-btn {
-                // max-width: 230px;
                 height: 60px;
                 background-color: #2b6cf5;
                 border-color: #2b6cf5;
@@ -76,15 +71,12 @@
                     border-color: #204289;
                     transition: 0.5s;
                 }
-                a{
+                a {
                     text-decoration: none;
-
-
                 }
             }
 
             .white-btn {
-                // width: 180px;
                 height: 60px;
                 margin-left: 30px;
                 background-color: white;
@@ -102,52 +94,62 @@
                     border: 1px solid #2b6cf5;
                     transition: 0.5s;
                 }
-                a{
+                a {
                     text-decoration: none;
-                    
                 }
             }
         }
     }
 
     .right-side {
-        // border: 1px solid black;
         width: 50%;
-        background-image: url(../../../public/images/bedoctor-home-pic1.webp);
-        background-repeat: no-repeat;
-        background-position: bottom;
-        background-size: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        img {
+            width: 40vw;
+            animation: 0.8s ease-out 0s 1 slideInFromLeft;
+            @keyframes slideInFromLeft {
+                0% {
+                    transform: translateX(100%);
+                    opacity: 0;
+                }
+                100% {
+                    transform: translateX(0);
+                    opacity: 1;
+                }
+            }
+        }
     }
 }
 
 @media (max-width: 1280px) {
-    .first-block{
+    .first-block {
         height: 850px;
-    
-    .left-side-text {
-        margin: 0;
-        line-height: 80px;
-        h1 {
-            font-size: 50px;
-        }
-        .btns-block {
-            .blue-btn {
-                width: 150px;
-                height: 40px;
-                font-size: 10px;
-                padding: 0;
-            }
-            .white-btn {
-                width: 150px;
-                height: 40px;
-                font-size: 10px;
-                padding: 0;
-            }
-        }
-    }
-    .right-side{
-        background-position: center;
 
+        .left-side-text {
+            margin: 0;
+            line-height: 80px;
+            h1 {
+                font-size: 50px;
+            }
+            .btns-block {
+                .blue-btn {
+                    width: 150px;
+                    height: 40px;
+                    font-size: 10px;
+                    padding: 0;
+                }
+                .white-btn {
+                    width: 150px;
+                    height: 40px;
+                    font-size: 10px;
+                    padding: 0;
+                }
+            }
+        }
+        .right-side {
+            background-position: center;
+        }
     }
-}
 }

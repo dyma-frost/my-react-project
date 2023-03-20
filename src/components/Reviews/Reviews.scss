@@ -1,6 +1,5 @@
 .reviews-wrap {
     margin-top: 50px;
-    // border: 1px solid black;
     font-family: 'Plus Jakarta Sans', sans-serif;
     background: rgb(255, 231, 214);
     background: linear-gradient(
@@ -12,17 +11,14 @@
     border-radius: 40px;
     .container {
         width: 80%;
-        // border: 1px solid black;
         margin: 0 auto;
         padding: 50px 0px 50px 0px;
-        
     }
     h3 {
         font-size: 2.5vw;
         color: #2b6cf5;
     }
     .review {
-        // border: 1px solid black;
         margin-top: 10px;
         padding: 20px;
         border-radius: 40px;
@@ -46,7 +42,6 @@
     }
     form{
         margin: 0 auto;
-        // border: 1px solid black;
         width: 35%;
         height: 20vw;
         margin-top: 40px;

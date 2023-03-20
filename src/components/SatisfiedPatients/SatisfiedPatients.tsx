@@ -25,6 +25,7 @@ const SatisfiedPatients = (props: Props) => {
                         </div>
                     </div>
                     <div className="right-side">
+                        <img src="images/bedoctor-packages-pic2.webp" alt="" />
                         <div className="sticker">
                             <div className="logo">
                                 <i className="logo-star"></i>
