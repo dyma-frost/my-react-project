@@ -6,7 +6,9 @@ const Quote = (props: Props) => {
         <>
             <div className="second-block">
                 <div className="container">
-                    <div className="left-side"></div>
+                    <div className="left-side">
+                        <img src="/images/bedoctor-home-pic2.webp" alt="" />
+                    </div>
                     <div className="right-side">
                         <div className="icon"></div>
                         <div className="title">

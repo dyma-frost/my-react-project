@@ -15,21 +15,26 @@ const MainPage1 = (props: Props) => {
                                 your family doctor!
                             </h1>
                             <div className="btns-block">
-                                
                                 <Link to="/contact">
-                                    <button className="blue-btn">Book an appointment</button>
-                                        
-                                    </Link>
-
-                                
-                                    <Link to="/about">
-                                    <button className="white-btn">My experience</button>
+                                    <button className="blue-btn">
+                                        Book an appointment
+                                    </button>
                                 </Link>
 
+                                <Link to="/about">
+                                    <button className="white-btn">
+                                        My experience
+                                    </button>
+                                </Link>
                             </div>
                         </div>
                     </div>
-                    <div className="right-side"></div>
+                    <div className="right-side">
+                        <img
+                            src="images/bedoctor-home-pic1.webp"
+                            alt="bedoctor-home-pic1"
+                        />
+                    </div>
                 </div>
             </div>
         </>

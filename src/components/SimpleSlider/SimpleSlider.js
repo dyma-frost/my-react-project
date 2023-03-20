@@ -1,4 +1,3 @@
-// import articleArray from 'utils/articleArray'
 import Slider from 'react-slick'
 import { Link } from 'react-router-dom'
 import postsArray from 'utils/postsArray'
@@ -7,7 +6,7 @@ const SimpleSlider = () => {
     const settings = {
         dots: false,
         infinite: true,
-        autoplay: true,
+        // autoplay: true,
         autoplaySpeed: 2000,
         speed: 1000,
         slidesToShow: 3,
@@ -25,10 +24,9 @@ const SimpleSlider = () => {
                             <Link to={`/services/${id}`}>
                                 <div className="card-bottom">
                                     <h3>{title}</h3>
-                                    {/* <h6>{description}</h6> */}
                                     <Link to={`/services/${category}`}>
                                         <button>
-                                            See more about{' '}
+                                            See more about <br/>
                                             <span>{category}</span>
                                         </button>
                                     </Link>

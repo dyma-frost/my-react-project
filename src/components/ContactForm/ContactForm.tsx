@@ -23,7 +23,7 @@ const ContactForm = (props: Props) => {
                                 placeholder="Full name"
                             ></input>
                             <input
-                                type="number"
+                                type="phone"
                                 name="phone"
                                 placeholder="Phone"
                             ></input>
@@ -35,7 +35,7 @@ const ContactForm = (props: Props) => {
                             <textarea placeholder="Your message..."></textarea>
                         </form>
                     </div>
-                    <button>Send a message</button>
+                    <button type="submit">Send a message</button>
                 </div>
             </div>
         </>

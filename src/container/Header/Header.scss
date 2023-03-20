@@ -11,7 +11,6 @@ header {
     position: sticky;
     top: 0;
     z-index: 99;
-    // border: 1px solid black;
     transition: 0.5s;
 
     .menu {
@@ -29,9 +28,8 @@ header {
     background-color: transparent;
 
     a {
-        width: 210px;
+        width: 10vw;
         text-decoration: none;
-
         cursor: pointer;
     }
 
@@ -53,7 +51,7 @@ header {
             justify-content: center;
         }
 
-        .menu-item{
+        .menu-item {
             color: #204289;
             margin: 5px;
             &:hover {
@@ -64,13 +62,7 @@ header {
                 align-items: center;
                 margin: 5px;
             }
-            // &:hover span{
-            //     color: white;
-            // }
         }
-        // .menu-item:last-child{
-        //     width: 80px;
-        // }
 
         .menu-item-active {
             color: white;
@@ -80,17 +72,7 @@ header {
             align-items: center;
             margin: 5px;
             transition: 0.5s;
-            // span{
-            //     color: white;
-            // }
         }
-        
-        // .menu-item-active:last-child{
-        //     width: 80px;
-        //     span{
-        //         color: white;
-        //     }
-        // }
     }
 
     .contact {
@@ -101,15 +83,18 @@ header {
             width: auto;
             color: #204289;
             font-family: 'Plus Jakarta Sans', sans-serif;
-            font-size: 14px;
+            font-size: 0.8vw;
         }
-        a:first-child {
-            padding-right: 10px;
-            position: relative;
-            img {
-                position: absolute;
-                left: -20px;
-            }
+        .circle-button{
+            width: 2.82vw;
         }
+        // a:first-child {
+        //     padding-right: 10px;
+        //     position: relative;
+        //     img {
+        //         position: absolute;
+        //         left: -20px;
+        //     }
+        // }
     }
 }

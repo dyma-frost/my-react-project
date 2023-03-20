@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './ChooseMe.scss'
 
 type Props = {}
@@ -12,7 +13,9 @@ const ChooseMe = (props: Props) => {
                                 Why you should <br />
                                 choose me?
                             </h2>
-                            <button>My experience</button>
+                            <Link to="/">
+                                <button>My experience</button>
+                            </Link>
                         </div>
                         <div className="bottom-side">
                             <h5 className="description-1">

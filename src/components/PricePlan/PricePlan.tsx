@@ -21,10 +21,8 @@ const PricePlan = (props: Props) => {
                             <p>Laboratory and diagnostic tests</p>
                             <p>Two home visits a year</p>
                         </div>
-                        <Link to="/">
-                            <button onClick={() => window.scrollTo({ top: 0 })}>
-                                Choose
-                            </button>
+                        <Link to="/packages">
+                            <button>Choose</button>
                         </Link>
                     </div>
                 </div>
@@ -44,10 +42,8 @@ const PricePlan = (props: Props) => {
                             <p>Two more home visits a year</p>
                         </div>
                         {/* <button>Choose</button> */}
-                        <Link to="/">
-                            <button onClick={() => window.scrollTo({ top: 0 })}>
-                                Choose
-                            </button>
+                        <Link to="/packages">
+                            <button>Choose</button>
                         </Link>
                     </div>
                 </div>
@@ -66,10 +62,8 @@ const PricePlan = (props: Props) => {
                             <p>Rehabilitation after injury</p>
                             <p>Four more home visits a year</p>
                         </div>
-                        <Link to="/">
-                            <button onClick={() => window.scrollTo({ top: 0 })}>
-                                Choose
-                            </button>
+                        <Link to="/packages">
+                            <button>Choose</button>
                         </Link>
                     </div>
                 </div>

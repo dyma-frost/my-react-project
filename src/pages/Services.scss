@@ -1,5 +1,4 @@
 .services {
-    // height: 1000px;
     margin-top: -90px;
     padding-bottom: 100px;
     background: rgb(203, 226, 255);
@@ -15,12 +14,6 @@
     justify-content: center;
     .container {
         width: 80%;
-        // border: 1px solid black;
-        // display: flex;
-        // flex-direction: column;
-        // justify-content: center;
-        // align-items: center;
-        
         .title-wrapper {
             height: 800px;
             display: flex;
@@ -29,10 +22,8 @@
             align-items: center;
         }
         .title {
-            // border: 1px solid black;
             text-align: center;
             width: 45%;
-            // margin-top: 150px;
             font-weight: 700;
             font-family: 'Plus Jakarta Sans', sans-serif;
             color: #204289;

@@ -7,7 +7,12 @@ const VisitOur = (props: Props) => {
         <>
             <div className="fifth-block">
                 <div className="container">
-                    <div className="left-side"></div>
+                    <div className="left-side">
+                        <img
+                            src="images/bedoctor-about-pic3.webp"
+                            alt="bedoctor-about-pic3"
+                        />
+                    </div>
                     <div className="right-side">
                         <div className="top-side">
                             <div className="logo"></div>

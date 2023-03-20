@@ -72,13 +72,13 @@ const articleArray: Article[] = [
     },
 ]
 
-export const getProductsObject = (array: Article[]) =>
-    array.reduce(
-        (object, product) => ({
-            ...object,
-            [product.id]: product,
-        }),
-        {}
-    )
+// export const getProductsObject = (array: Article[]) =>
+//     array.reduce(
+//         (object, product) => ({
+//             ...object,
+//             [product.id]: product,
+//         }),
+//         {}
+//     )
 
 export default articleArray

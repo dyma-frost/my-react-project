@@ -1,5 +1,4 @@
 .third-block {
-    // height: 1200px;
     margin-top: 50px;
     border-radius: 40px;
     background: rgb(155, 204, 255);
@@ -29,22 +28,23 @@
 
             h6 {
                 color: #2b6cf5;
-                font-size: 14px;
-                line-height: 20px;
+                font-size: 0.75vw;
+                line-height: 0.9vw;
                 font-weight: 700;
                 letter-spacing: 0px;
             }
 
             h2 {
                 color: #204289;
-                font-size: 50px;
-                line-height: 58px;
+                font-size: 2.6vw;
+                line-height: 3vw;
                 font-weight: 700;
                 letter-spacing: -2px;
                 margin-top: -20px;
             }
 
             p {
+                font-size: 0.82vw;
                 color: #204289;
                 text-align: center;
             }
@@ -102,9 +102,8 @@
         }
 
         .card-bottom {
-            // width: 100%;
             width: 20vw;
-            height: 250px;
+            height: 13vw;
             background-color: white;
             border-bottom-left-radius: 40px;
             border-bottom-right-radius: 40px;
@@ -116,31 +115,22 @@
 
             h3 {
                 margin: 0px 10px 0px 10px;
-                padding-top: 40px;
+                padding-top: 2.5vw;
                 color: #204289;
-                font-size: 28px;
-                line-height: 36px;
+                font-size: 1.4vw;
                 font-weight: 700;
                 letter-spacing: -1px;
             }
 
-            // h6 {
-            //     margin-top: 20px;
-            //     color: #204289;
-            //     font-size: 14px;
-            //     font-weight: 300;
-            // }
-
             button {
-                margin-top: 40px;
-                // width: 180px;
-                height: 60px;
+                margin-top: 2vw;
+                height: 3vw;
                 background-color: white;
                 font-family: 'Plus Jakarta Sans', sans-serif;
-                font-size: 17px;
-                padding: 16px 25px 16px 25px;
+                font-size: 1vw;
+                padding: 0vw 1.5vw;
                 border-radius: 38px;
-                line-height: 15px;
+                line-height: 1.3vw;
                 color: #2b6cf5;
                 border: 1px solid lightgray;
                 transition: 0.5s;
