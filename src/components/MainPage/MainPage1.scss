@@ -1,6 +1,6 @@
 .first-block {
     height: 60vw;
-    margin-top: -90px;
+    margin-top: -4.68vw;
     background: rgb(255, 231, 214);
     background: linear-gradient(
         28deg,
@@ -10,7 +10,7 @@
     );
     display: flex;
     justify-content: center;
-    border-radius: 40px;
+    border-radius: 2.083vw;
 
     .container {
         width: 80%;
@@ -22,27 +22,27 @@
         flex-direction: column;
         justify-content: center;
         font-size: 2vw;
-        line-height: 110px;
+        line-height: 5.73vw;
         font-weight: 700;
-        letter-spacing: -3px;
+        letter-spacing: -0.16vw;
         font-family: 'Plus Jakarta Sans', sans-serif;
         color: #204289;
 
         .left-side-text {
-            margin-top: -100px;
+            margin-top: -5.2vw;
         }
 
         h6 {
             color: #2b6cf5;
-            font-size: 14px;
-            line-height: 20px;
+            font-size: 0.73vw;
+            line-height: 1.04vw;
             font-weight: 700;
             letter-spacing: 0px;
         }
 
         h1 {
-            padding-left: 3px;
-            margin-top: -30px;
+            padding-left: 0.16vw;
+            margin-top: -1.56vw;
         }
 
         span {
@@ -50,18 +50,18 @@
         }
 
         .btns-block {
-            padding-left: 3px;
+            padding-left: 0.16vw;
 
             .blue-btn {
-                height: 60px;
+                height: 3.12vw;
                 background-color: #2b6cf5;
                 border-color: #2b6cf5;
                 font-family: 'Plus Jakarta Sans', sans-serif;
-                font-size: 17px;
-                padding: 16px 25px 16px 25px;
-                border-radius: 38px;
+                font-size: 0.9vw;
+                padding: 0.83vw 1.3vw 0.83vw 1.3vw;
+                border-radius: 2.08vw;
                 border-width: 1px;
-                line-height: 15px;
+                line-height: 0.78vw;
                 color: white;
                 transition: 0.5s;
                 cursor: pointer;
@@ -77,14 +77,14 @@
             }
 
             .white-btn {
-                height: 60px;
-                margin-left: 30px;
+                height: 3.12vw;
+                margin-left: 1.56vw;
                 background-color: white;
                 font-family: 'Plus Jakarta Sans', sans-serif;
-                font-size: 17px;
-                padding: 16px 25px 16px 25px;
-                border-radius: 38px;
-                line-height: 15px;
+                font-size: 0.9vw;
+                padding: 0.83vw 1.3vw 0.83vw 1.3vw;
+                border-radius: 2.08vw;
+                line-height: 0.78vw;
                 color: #2b6cf5;
                 border: 1px solid lightgray;
                 transition: 0.5s;
@@ -123,33 +123,3 @@
     }
 }
 
-@media (max-width: 1280px) {
-    .first-block {
-        height: 850px;
-
-        .left-side-text {
-            margin: 0;
-            line-height: 80px;
-            h1 {
-                font-size: 50px;
-            }
-            .btns-block {
-                .blue-btn {
-                    width: 150px;
-                    height: 40px;
-                    font-size: 10px;
-                    padding: 0;
-                }
-                .white-btn {
-                    width: 150px;
-                    height: 40px;
-                    font-size: 10px;
-                    padding: 0;
-                }
-            }
-        }
-        .right-side {
-            background-position: center;
-        }
-    }
-}

@@ -38,7 +38,7 @@ const Services = (props: Props) => {
                                     className="fa fa-chevron-down"
                                     style={{
                                         color: '#2b6cf5',
-                                        fontSize: '13px',
+                                        fontSize: '0.67vw',
                                         verticalAlign: 'top',
                                     }}
                                 ></i>

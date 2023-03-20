@@ -1,12 +1,12 @@
 .faq {
-    min-height: 1000px;
+    min-height: 52.08vw;
     display: flex;
     justify-content: center;
 
     .container {
         width: 80%;
-        padding: 50px 0;
-        border-radius: 40px;
+        padding: 2.6vw 0;
+        border-radius: 2.08vw;
         background: rgb(240, 249, 255);
         background: linear-gradient(
             126deg,
@@ -21,36 +21,36 @@
         justify-content: center;
     }
     .title-wrapper {
-        margin-top: 60px;
+        margin-top: 3.12vw;
     }
     h2 {
         font-weight: 700;
-        font-size: 50px;
-        margin-top: 25px;
+        font-size: 2.6vw;
+        margin-top: 1.3vw;
     }
     .ask-wrapper {
-        width: 900px;
-        margin: 10px 0;
-        font-size: 20px;
+        width: 46.8vw;
+        margin: 0.52vw 0;
+        font-size: 1.04vw;
     }
     .question {
         background-color: white;
-        border-radius: 40px;
-        padding: 24px 14px 24px 60px;
+        border-radius: 2.08vw;
+        padding: 1.25vw 0.72vw 1.25vw 3.12vw;
         position: relative;
 
         .fa {
             position: absolute;
-            left: 15px;
-            top: 25px;
-            font-size: 30px;
+            left: 0.78vw;
+            top: 1.3vw;
+            font-size: 1.56vw;
         }
     }
     .answer {
         background-color: white;
-        border-radius: 40px;
-        padding: 24px 14px 24px 10px;
-        margin-bottom: 50px;
+        border-radius: 2.08vw;
+        padding: 1.25vw 0.72vw 1.25vw 0.52vw;
+        margin-bottom: 2.6vw;
         
     }
 }

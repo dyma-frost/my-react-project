@@ -1,6 +1,6 @@
 .third-block {
-    margin-top: 50px;
-    border-radius: 40px;
+    margin-top: 2.6vw;
+    border-radius: 2.08vw;
     background: rgb(155, 204, 255);
     background: linear-gradient(
         139deg,
@@ -20,7 +20,7 @@
         flex-direction: column;
 
         .text-fragment {
-            padding-top: 100px;
+            padding-top: 5.2vw;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -39,8 +39,8 @@
                 font-size: 2.6vw;
                 line-height: 3vw;
                 font-weight: 700;
-                letter-spacing: -2px;
-                margin-top: -20px;
+                letter-spacing: -0.1vw;
+                margin-top: -1.04vw;
             }
 
             p {
@@ -54,20 +54,20 @@
             align-items: center;
         }
         .slick-slider {
-            margin-top: 50px;
-            margin-bottom: 50px;
+            margin-top: 2.6vw;
+            margin-bottom: 2.6vw;
             width: 100%;
 
             .slick-prev {
-                width: 100px;
-                height: 250px;
-                left: -70px;
+                width: 5.2vw;
+                height: 13.02vw;
+                left: -3.64vw;
                 z-index: 10;
             }
             .slick-next {
-                width: 100px;
-                height: 250px;
-                right: -70px;
+                width: 5.2vw;
+                height: 13.02vw;
+                right: -3.64vw;
                 z-index: 10;
             }
 
@@ -78,9 +78,9 @@
         }
     }
     .card {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        border-radius: 40px;
+        margin-top: 0.52vw;
+        margin-bottom: 0.52vw;
+        border-radius: 2.08vw;
         transition: 1s;
 
         &:hover {
@@ -96,8 +96,8 @@
         .card-top {
             img {
                 width: 20vw;
-                border-top-left-radius: 40px;
-                border-top-right-radius: 40px;
+                border-top-left-radius: 2.08vw;
+                border-top-right-radius: 2.08vw;
             }
         }
 
@@ -105,8 +105,8 @@
             width: 20vw;
             height: 13vw;
             background-color: white;
-            border-bottom-left-radius: 40px;
-            border-bottom-right-radius: 40px;
+            border-bottom-left-radius: 2.08vw;
+            border-bottom-right-radius: 2.08vw;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -114,12 +114,12 @@
             transition: 0.5s;
 
             h3 {
-                margin: 0px 10px 0px 10px;
+                margin: 0px 0.52vw 0px 0.52vw;
                 padding-top: 2.5vw;
                 color: #204289;
                 font-size: 1.4vw;
                 font-weight: 700;
-                letter-spacing: -1px;
+                letter-spacing: -0.05vw;
             }
 
             button {
@@ -129,7 +129,7 @@
                 font-family: 'Plus Jakarta Sans', sans-serif;
                 font-size: 1vw;
                 padding: 0vw 1.5vw;
-                border-radius: 38px;
+                border-radius: 2.08vw;
                 line-height: 1.3vw;
                 color: #2b6cf5;
                 border: 1px solid lightgray;

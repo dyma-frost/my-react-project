@@ -1,6 +1,6 @@
 .sixth-block {
-    margin-top: 50px;
-    border-radius: 40px;
+    margin-top: 2.6vw;
+    border-radius: 2.08vw;
 
     background: rgb(244, 244, 244);
     display: flex;
@@ -20,19 +20,19 @@
 
             h6 {
                 color: #2b6cf5;
-                font-size: 14px;
-                line-height: 20px;
+                font-size: 0.72vw;
+                line-height: 1.04;
                 font-weight: 700;
                 letter-spacing: 0px;
             }
 
             h2 {
                 color: #204289;
-                font-size: 50px;
-                line-height: 58px;
+                font-size: 2.6vw;
+                line-height: 3.02vw;
                 font-weight: 700;
-                letter-spacing: -2px;
-                margin-top: -20px;
+                letter-spacing: -0.1vw;
+                margin-top: -1.04;
             }
 
             p {
@@ -47,25 +47,25 @@
             [class*='card'] {
                 background-color: white;
                 width: 30%;
-                border-radius: 40px;
+                border-radius: 4.16vw;
                 color: #204289;
                 font-family: 'Plus Jakarta Sans', sans-serif;
-                height: 600px;
+                height: 31.25vw;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-around;
                 button {
-                    width: 150px;
-                    height: 50px;
+                    width: 7.81vw;
+                    height: 2.6vw;
                     background-color: #2b6cf5;
                     border-color: #2b6cf5;
                     font-family: 'Plus Jakarta Sans', sans-serif;
-                    font-size: 17px;
-                    padding: 16px 25px 16px 25px;
-                    margin-top: 25px;
-                    border-radius: 38px;
+                    font-size: 0.9vw;
+                    padding: 0.83vw 1.3vw 0.83vw 1.3vw;
+                    border-radius: 40px;
+                    line-height: 0.8vw;
+                    margin-top: 1.3vw;
                     border: none;
-                    line-height: 15px;
                     color: white;
                     transition: 0.5s;
                     cursor: pointer;
@@ -82,16 +82,16 @@
                     flex-direction: column;
                     align-items: center;
                     .logo {
-                        width: 90px;
-                        height: 80px;
+                        width: 4.68vw;
+                        height: 4.16vw;
                         background-repeat: no-repeat;
                         background-position: center;
                     }
                     .price {
-                        font-size: 35px;
-                        margin-top: 35px;
+                        font-size: 1.82vw;
+                        margin-top: 1.82vw;
                         span {
-                            font-size: 50px;
+                            font-size: 2.6vw;
                         }
                     }
                 }
@@ -107,7 +107,7 @@
                             border-top: 1px solid rgba(0, 0, 0, 0.1);
                             border-bottom: 1px solid rgba(0, 0, 0, 0.1);
                             margin: 0;
-                            padding: 16px 0;
+                            padding: 0.83vw 0;
                             width: 120%;
                             display: flex;
                             justify-content: center;
@@ -132,18 +132,18 @@
                     background-image: url(../../../public/images/bedoctor-pricing-icon3.svg);
                 }
                 button {
-                    width: 150px;
-                    height: 50px;
+                    width: 7.8vw;
+                    height: 2.6vw;
                     background-color: white;
                     color: #2b6cf5;
                     border-color: #2b6cf5;
                     font-family: 'Plus Jakarta Sans', sans-serif;
-                    font-size: 17px;
-                    padding: 16px 25px 16px 25px;
+                    font-size: 0.9vw;
+                    padding: 0.83vw 1.3vw 0.83vw 1.3vw;
+                    border-radius: 40px;
+                    line-height: 0.8vw;
                     margin-top: 25px;
-                    border-radius: 38px;
                     border: none;
-                    line-height: 15px;
                     transition: 0.5s;
                     cursor: pointer;
 
