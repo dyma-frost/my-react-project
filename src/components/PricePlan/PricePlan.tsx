@@ -35,8 +35,8 @@ const PricePlan = (props: Props) => {
                     <div className="top-side">
                         <div className="logo">
                             <img
-                                src="images/bedoctor-pricing-icon1.svg"
-                                alt="bedoctor-pricing-icon1"
+                                src="images/bedoctor-pricing-icon2.svg"
+                                alt="bedoctor-pricing-icon2"
                             />
                         </div>
                         <div className="price">
@@ -60,8 +60,8 @@ const PricePlan = (props: Props) => {
                     <div className="top-side">
                         <div className="logo">
                             <img
-                                src="images/bedoctor-pricing-icon1.svg"
-                                alt="bedoctor-pricing-icon1"
+                                src="images/bedoctor-pricing-icon3.svg"
+                                alt="bedoctor-pricing-icon3"
                             />
                         </div>
                         <div className="price">
