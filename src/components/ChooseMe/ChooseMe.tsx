@@ -13,7 +13,7 @@ const ChooseMe = (props: Props) => {
                                 Why you should <br />
                                 choose me?
                             </h2>
-                            <Link to="/">
+                            <Link to="/about">
                                 <button>My experience</button>
                             </Link>
                         </div>
