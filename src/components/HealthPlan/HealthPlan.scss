@@ -36,6 +36,7 @@
             }
 
             p {
+                font-size: 0.8vw;
                 color: #204289;
                 text-align: center;
             }
@@ -82,10 +83,10 @@
                     flex-direction: column;
                     align-items: center;
                     .logo {
-                        width: 4.68vw;
-                        height: 4.16vw;
-                        background-repeat: no-repeat;
-                        background-position: center;
+                        img {
+                            width: 5.5vw;
+                            height: 4.16vw;
+                        }
                     }
                     .price {
                         font-size: 1.82vw;
@@ -115,22 +116,11 @@
                     }
                 }
             }
-            .card1 {
-                .logo {
-                    background-image: url(../../../public/images/bedoctor-pricing-icon1.svg);
-                }
-            }
-            .card2 {
-                .logo {
-                    background-image: url(../../../public/images/bedoctor-pricing-icon2.svg);
-                }
-            }
+
             .card3 {
                 background-color: #2b6cf5;
                 color: white;
-                .logo {
-                    background-image: url(../../../public/images/bedoctor-pricing-icon3.svg);
-                }
+
                 button {
                     width: 7.8vw;
                     height: 2.6vw;

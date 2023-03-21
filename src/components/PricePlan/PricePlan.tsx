@@ -8,7 +8,12 @@ const PricePlan = (props: Props) => {
             <div className="price-cards">
                 <div className="card1">
                     <div className="top-side">
-                        <div className="logo"></div>
+                        <div className="logo">
+                            <img
+                                src="images/bedoctor-pricing-icon1.svg"
+                                alt="bedoctor-pricing-icon1"
+                            />
+                        </div>
                         <div className="price">
                             <sup>$</sup>
                             <span>39</span>
@@ -28,7 +33,12 @@ const PricePlan = (props: Props) => {
                 </div>
                 <div className="card2">
                     <div className="top-side">
-                        <div className="logo"></div>
+                        <div className="logo">
+                            <img
+                                src="images/bedoctor-pricing-icon1.svg"
+                                alt="bedoctor-pricing-icon1"
+                            />
+                        </div>
                         <div className="price">
                             <sup>$</sup>
                             <span>59</span>
@@ -48,7 +58,12 @@ const PricePlan = (props: Props) => {
                 </div>
                 <div className="card3">
                     <div className="top-side">
-                        <div className="logo"></div>
+                        <div className="logo">
+                            <img
+                                src="images/bedoctor-pricing-icon1.svg"
+                                alt="bedoctor-pricing-icon1"
+                            />
+                        </div>
                         <div className="price">
                             <sup>$</sup>
                             <span>99</span>

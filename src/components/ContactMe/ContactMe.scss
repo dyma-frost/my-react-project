@@ -50,6 +50,9 @@
                 border-radius: 50%;
                 border: none;
                 background-color: #F2F6FA;
+                display: flex;
+                align-items: center;
+                justify-content: center;
                 a:visited {
                     color: transparent;
                 }
@@ -99,7 +102,7 @@
             font-size: 0.9vw;
             padding: 0.83vw 1.3vw 0.83vw 1.3vw;
             border-radius: 40px;
-            border-width: 1px;
+            border: none;
             line-height: 0.8vw;
             color: white;
             transition: 0.5s;

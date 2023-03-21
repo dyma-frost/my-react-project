@@ -1,5 +1,3 @@
-// import { Link } from 'react-router-dom'
-
 import PricePlan from 'components/PricePlan/PricePlan'
 import './HealthPlan.scss'
 
@@ -18,7 +16,7 @@ const HealthPlan = (props: Props) => {
                             commodo odio.
                         </p>
                     </div>
-                    <PricePlan/>
+                    <PricePlan />
                 </div>
             </div>
         </>
